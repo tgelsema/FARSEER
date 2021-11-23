@@ -1,0 +1,601 @@
+lemma;name;type
+naam;naam;CategoricalVariable
+namen;naam;CategoricalVariable
+heet;naam;CategoricalVariable
+heten;naam;CategoricalVariable
+wonen;woont op;ObjectTypeRelation
+woont;woont op;ObjectTypeRelation
+persoon;persoon;ObjectType
+personen;persoon;ObjectType
+mens;persoon;ObjectType
+mensen;persoon;ObjectType
+adres;adres;ObjectType
+adressen;adres;ObjectType
+gemeente;gemeente;ObjectType
+gemeenten;gemeente;ObjectType
+gemeentenaam;gemeentenaam;CategoricalVariable
+huisnummers;huisnummer;CategoricalVariable
+huisnummer;huisnummer;CategoricalVariable
+nummer;huisnummer;CategoricalVariable
+leeftijd;leeftijd;NumericalVariable
+inkomen;inkomen;NumericalVariable
+oud;leeftijd;NumericalVariable
+oudst;leeftijd__SEP__desc;NumericalVariable
+oudste;leeftijd__SEP__desc;NumericalVariable
+jongst;leeftijd__SEP__asc;NumericalVariable
+jongste;leeftijd__SEP__asc;NumericalVariable
+gezin;adres;ObjectType
+gezinnen;adres;ObjectType
+inwoner;inwoner;ObjectTypeRelation
+inwoners;inwoner;ObjectTypeRelation
+bewoner;woont op;ObjectTypeRelation
+bewoners;woont op;ObjectTypeRelation
+geslacht;geslacht;CategoricalVariable
+geslachten;geslacht;CategoricalVariable
+man;man;Constant
+mannen;man;Constant
+mannelijk;man;Constant
+mannelijke;man;Constant
+vrouw;vrouw;Constant
+vrouwen;vrouw;Constant
+vrouwelijk;vrouw;Constant
+vrouwelijke;vrouw;Constant
+ligt;ligt in;ObjectTypeRelation
+verdien;inkomen;NumericalVariable
+verdient;inkomen;NumericalVariable
+verdienen;inkomen;NumericalVariable
+verdiend;inkomen;NumericalVariable
+kolonel;kolonel;Constant
+kolonels;kolonel;Constant
+kolonellen;kolonel;Constant
+wethouder;wethouder;Constant
+wethouders;wethouder;Constant
+griffier;griffier;Constant
+griffiers;griffier;Constant
+seismoloog;seismoloog;Constant
+seismologen;seismoloog;Constant
+watermanager;watermanager;Constant
+watermanagers;watermanager;Constant
+oogarts;oogarts;Constant
+oogartsen;oogarts;Constant
+industrie;industrie;Constant
+industrieel;industrie;Constant
+industriele;industrie;Constant
+onderwijs;onderwijs;Constant
+onderwijsinstelling;onderwijs;Constant
+onderwijsinstellingen;onderwijs;Constant
+school;onderwijs;Constant
+scholen;onderwijs;Constant
+bouwnijverheid;bouwnijverheid;Constant
+bouwbedrijf;bouwnijverheid;Constant
+bouwbedrijven;bouwnijverheid;Constant
+openbaar bestuur;openbaar bestuur;Constant
+zakelijke dienstverlening;zakelijke dienstverlening;Constant
+zakelijke dienst;zakelijke dienstverlening;Constant
+zakelijke diensten;zakelijke dienstverlening;Constant
+gezondheidszorg;gezondheidszorg;Constant
+werken;werkgever;ObjectTypeRelation
+werkt;werkgever;ObjectTypeRelation
+baan;baan;ObjectType
+banen;baan;ObjectType
+tjalling;Tjalling;Constant
+aart van der leeuwlaan;Aart van der Leeuwlaan;Constant
+prins mauritsstraat;Prins Mauritsstraat;Constant
+westlandseweg;Westlandseweg;Constant
+meppelerweg;Meppelerweg;Constant
+lutherse burgwal;Lutherse Burgwal;Constant
+coolsingel;Coolsingel;Constant
+blaak;Blaak;Constant
+amsterdamsestraatweg;Amsterdamsestraatweg;Constant
+europalaan;Europalaan;Constant
+joseph haydnlaan;Joseph Haydnlaan;Constant
+rapenburg;Rapenburg;Constant
+witte singel;Witte Singel;Constant
+haagweg;Haagweg;Constant
+klikspaanweg;Klikspaanweg;Constant
+bedrijf;bedrijf;ObjectType
+bedrijven;bedrijf;ObjectType
+gevestigd;gevestigd op;ObjectTypeRelation
+vestiging;gevestigd op;ObjectTypeRelation
+salaris;salaris;NumericalVariable
+activiteit;economische hoofdactiviteit;CategoricalVariable
+hoofdactiviteit;economische hoofdactiviteit;CategoricalVariable
+beroep;beroepen;Phenomenon
+beroepen;beroepen;Phenomenon
+functie;functie;CategoricalVariable
+functies;functie;CategoricalVariable
+woongemeente;gemeente;ObjectType
+omzet;omzet;NumericalVariable
+werknemer;werknemer;ObjectTypeRelation
+werkgever;werkgever;ObjectTypeRelation
+werknemers;werknemer;ObjectTypeRelation
+werkgevers;werkgever;ObjectTypeRelation
+aa en hunze;Aa en Hunze;Constant
+aalburg;Aalburg;Constant
+aalsmeer;Aalsmeer;Constant
+aalten;Aalten;Constant
+achtkarspelen;Achtkarspelen;Constant
+alblasserdam;Alblasserdam;Constant
+albrandswaard;Albrandswaard;Constant
+alkmaar;Alkmaar;Constant
+almelo;Almelo;Constant
+almere;Almere;Constant
+alphen aan den rijn;Alphen aan den Rijn;Constant
+alphen-chaam;Alphen-Chaam;Constant
+ameland;Ameland;Constant
+amersfoort;Amersfoort;Constant
+amstelveen;Amstelveen;Constant
+amsterdam;Amsterdam;Constant
+apeldoorn;Apeldoorn;Constant
+appingedam;Appingedam;Constant
+arnhem;Arnhem;Constant
+assen;Assen;Constant
+asten;Asten;Constant
+baarle-nassau;Baarle-Nassau;Constant
+baarn;Baarn;Constant
+barendrecht;Barendrecht;Constant
+barneveld;Barneveld;Constant
+bedum;Bedum;Constant
+beek;Beek;Constant
+beemster;Beemster;Constant
+beesel;Beesel;Constant
+bellingwedde;Bellingwedde;Constant
+berg en dal;Berg en Dal;Constant
+bergeijk;Bergeijk;Constant
+bergen ( l. );Bergen (L.);Constant
+bergen ( nh . );Bergen (NH.);Constant
+bergen op zoom;Bergen op Zoom;Constant
+berkelland;Berkelland;Constant
+bernheze;Bernheze;Constant
+best;Best;Constant
+beuningen;Beuningen;Constant
+beverwijk;Beverwijk;Constant
+het bildt;het Bildt;Constant
+de bilt;De Bilt;Constant
+binnenmaas;Binnenmaas;Constant
+bladel;Bladel;Constant
+blaricum;Blaricum;Constant
+bloemendaal;Bloemendaal;Constant
+bodegraven-reeuwijk;Bodegraven-Reeuwijk;Constant
+boekel;Boekel;Constant
+ten boer;Ten Boer;Constant
+borger-odoorn;Borger-Odoorn;Constant
+borne;Borne;Constant
+borsele;Borsele;Constant
+boxmeer;Boxmeer;Constant
+boxtel;Boxtel;Constant
+breda;Breda;Constant
+brielle;Brielle;Constant
+bronckhorst;Bronckhorst;Constant
+brummen;Brummen;Constant
+brunssum;Brunssum;Constant
+bunnik;Bunnik;Constant
+bunschoten;Bunschoten;Constant
+buren;Buren;Constant
+capelle aan den ijssel;Capelle aan den IJssel;Constant
+castricum;Castricum;Constant
+coevorden;Coevorden;Constant
+cranendonck;Cranendonck;Constant
+cromstrijen;Cromstrijen;Constant
+cuijk;Cuijk;Constant
+culemborg;Culemborg;Constant
+dalfsen;Dalfsen;Constant
+dantumadiel;Dantumadiel;Constant
+delft;Delft;Constant
+delfzijl;Delfzijl;Constant
+deurne;Deurne;Constant
+deventer;Deventer;Constant
+diemen;Diemen;Constant
+dinkelland;Dinkelland;Constant
+doesburg;Doesburg;Constant
+doetinchem;Doetinchem;Constant
+dongen;Dongen;Constant
+dongeradeel;Dongeradeel;Constant
+dordrecht;Dordrecht;Constant
+drechterland;Drechterland;Constant
+drimmelen;Drimmelen;Constant
+dronten;Dronten;Constant
+druten;Druten;Constant
+duiven;Duiven;Constant
+echt-susteren;Echt-Susteren;Constant
+edam-volendam;Edam-Volendam;Constant
+ede;Ede;Constant
+eemnes;Eemnes;Constant
+eemsmond;Eemsmond;Constant
+eersel;Eersel;Constant
+eijsden-margraten;Eijsden-Margraten;Constant
+eindhoven;Eindhoven;Constant
+elburg;Elburg;Constant
+emmen;Emmen;Constant
+enkhuizen;Enkhuizen;Constant
+enschede;Enschede;Constant
+epe;Epe;Constant
+ermelo;Ermelo;Constant
+etten-leur;Etten-Leur;Constant
+ferwerderadiel;Ferwerderadiel;Constant
+franekeradeel;Franekeradeel;Constant
+de fryske marren;De Fryske Marren;Constant
+geertruidenberg;Geertruidenberg;Constant
+geldermalsen;Geldermalsen;Constant
+geldrop-mierlo;Geldrop-Mierlo;Constant
+gemert-bakel;Gemert-Bakel;Constant
+gennep;Gennep;Constant
+giessenlanden;Giessenlanden;Constant
+gilze en rijen;Gilze en Rijen;Constant
+goeree-overflakkee;Goeree-Overflakkee;Constant
+goes;Goes;Constant
+goirle;Goirle;Constant
+gooise meren;Gooise Meren;Constant
+gorinchem;Gorinchem;Constant
+gouda;Gouda;Constant
+grave;Grave;Constant
+' s-gravenhage;'s-Gravenhage;Constant
+den haag;'s-Gravenhage;Constant
+groningen;Groningen;Constant
+grootegast;Grootegast;Constant
+gulpen-wittem;Gulpen-Wittem;Constant
+haaksbergen;Haaksbergen;Constant
+haaren;Haaren;Constant
+haarlem;Haarlem;Constant
+haarlemmerliede en spaarnwoude;Haarlemmerliede en Spaarnwoude;Constant
+haarlemmermeer;Haarlemmermeer;Constant
+halderberge;Halderberge;Constant
+hardenberg;Hardenberg;Constant
+harderwijk;Harderwijk;Constant
+hardinxveld-giessendam;Hardinxveld-Giessendam;Constant
+haren;Haren;Constant
+harlingen;Harlingen;Constant
+hattem;Hattem;Constant
+heemskerk;Heemskerk;Constant
+heemstede;Heemstede;Constant
+heerde;Heerde;Constant
+heerenveen;Heerenveen;Constant
+heerhugowaard;Heerhugowaard;Constant
+heerlen;Heerlen;Constant
+heeze-leende;Heeze-Leende;Constant
+heiloo;Heiloo;Constant
+den helder;Den Helder;Constant
+hellendoorn;Hellendoorn;Constant
+hellevoetsluis;Hellevoetsluis;Constant
+helmond;Helmond;Constant
+hendrik-ido-ambacht;Hendrik-Ido-Ambacht;Constant
+hengelo;Hengelo;Constant
+' s-hertogenbosch;'s-Hertogenbosch;Constant
+heumen;Heumen;Constant
+heusden;Heusden;Constant
+hillegom;Hillegom;Constant
+hilvarenbeek;Hilvarenbeek;Constant
+hilversum;Hilversum;Constant
+hof van twente;Hof van Twente;Constant
+hollands kroon;Hollands Kroon;Constant
+hoogeveen;Hoogeveen;Constant
+hoogezand-sappemeer;Hoogezand-Sappemeer;Constant
+hoorn;Hoorn;Constant
+horst aan de maas;Horst aan de Maas;Constant
+houten;Houten;Constant
+huizen;Huizen;Constant
+hulst;Hulst;Constant
+ijsselstein;IJsselstein;Constant
+kaag en braassem;Kaag en Braassem;Constant
+kampen;Kampen;Constant
+kapelle;Kapelle;Constant
+katwijk;Katwijk;Constant
+kerkrade;Kerkrade;Constant
+koggenland;Koggenland;Constant
+kollumerland en nieuwkruisland;Kollumerland en Nieuwkruisland;Constant
+korendijk;Korendijk;Constant
+krimpen aan den ijssel;Krimpen aan den IJssel;Constant
+krimpenerwaard;Krimpenerwaard;Constant
+laarbeek;Laarbeek;Constant
+landerd;Landerd;Constant
+landgraaf;Landgraaf;Constant
+landsmeer;Landsmeer;Constant
+langedijk;Langedijk;Constant
+lansingerland;Lansingerland;Constant
+laren;Laren;Constant
+leek;Leek;Constant
+leerdam;Leerdam;Constant
+leeuwarden;Leeuwarden;Constant
+leeuwarderadeel;Leeuwarderadeel;Constant
+leiden;Leiden;Constant
+leiderdorp;Leiderdorp;Constant
+leidschendam-voorburg;Leidschendam-Voorburg;Constant
+lelystad;Lelystad;Constant
+leudal;Leudal;Constant
+leusden;Leusden;Constant
+lingewaal;Lingewaal;Constant
+lingewaard;Lingewaard;Constant
+lisse;Lisse;Constant
+littenseradiel;Littenseradiel;Constant
+lochem;Lochem;Constant
+loon op zand;Loon op Zand;Constant
+lopik;Lopik;Constant
+loppersum;Loppersum;Constant
+losser;Losser;Constant
+maasdriel;Maasdriel;Constant
+maasgouw;Maasgouw;Constant
+maassluis;Maassluis;Constant
+maastricht;Maastricht;Constant
+de marne;De Marne;Constant
+marum;Marum;Constant
+medemblik;Medemblik;Constant
+meerssen;Meerssen;Constant
+menameradiel;Menameradiel;Constant
+menterwolde;Menterwolde;Constant
+meppel;Meppel;Constant
+middelburg;Middelburg;Constant
+midden-delfland;Midden-Delfland;Constant
+midden-drenthe;Midden-Drenthe;Constant
+mill en sint hubert;Mill en Sint Hubert;Constant
+moerdijk;Moerdijk;Constant
+molenwaard;Molenwaard;Constant
+montferland;Montferland;Constant
+montfoort;Montfoort;Constant
+mook en middelaar;Mook en Middelaar;Constant
+neder-betuwe;Neder-Betuwe;Constant
+nederweert;Nederweert;Constant
+neerijnen;Neerijnen;Constant
+nieuwegein;Nieuwegein;Constant
+nieuwkoop;Nieuwkoop;Constant
+nijkerk;Nijkerk;Constant
+nijmegen;Nijmegen;Constant
+nissewaard;Nissewaard;Constant
+noord-beveland;Noord-Beveland;Constant
+noordenveld;Noordenveld;Constant
+noordoostpolder;Noordoostpolder;Constant
+noordwijk;Noordwijk;Constant
+noordwijkerhout;Noordwijkerhout;Constant
+nuenen;Nuenen;Constant
+nunspeet;Nunspeet;Constant
+nuth;Nuth;Constant
+oegstgeest;Oegstgeest;Constant
+oirschot;Oirschot;Constant
+oisterwijk;Oisterwijk;Constant
+oldambt;Oldambt;Constant
+oldebroek;Oldebroek;Constant
+oldenzaal;Oldenzaal;Constant
+olst-wijhe;Olst-Wijhe;Constant
+ommen;Ommen;Constant
+onderbanken;Onderbanken;Constant
+oost gelre;Oost Gelre;Constant
+oosterhout;Oosterhout;Constant
+ooststellingwerf;Ooststellingwerf;Constant
+oostzaan;Oostzaan;Constant
+opmeer;Opmeer;Constant
+opsterland;Opsterland;Constant
+oss;Oss;Constant
+oud-beijerland;Oud-Beijerland;Constant
+oude ijsselstreek;Oude IJsselstreek;Constant
+ouder-amstel;Ouder-Amstel;Constant
+oudewater;Oudewater;Constant
+overbetuwe;Overbetuwe;Constant
+papendrecht;Papendrecht;Constant
+peel en maas;Peel en Maas;Constant
+pekela;Pekela;Constant
+pijnacker-nootdorp;Pijnacker-Nootdorp;Constant
+purmerend;Purmerend;Constant
+putten;Putten;Constant
+raalte;Raalte;Constant
+reimerswaal;Reimerswaal;Constant
+renkum;Renkum;Constant
+renswoude;Renswoude;Constant
+reusel-de mierden;Reusel-De Mierden;Constant
+rheden;Rheden;Constant
+rhenen;Rhenen;Constant
+ridderkerk;Ridderkerk;Constant
+rijnwaarden;Rijnwaarden;Constant
+rijssen-holten;Rijssen-Holten;Constant
+rijswijk;Rijswijk;Constant
+roerdalen;Roerdalen;Constant
+roermond;Roermond;Constant
+de ronde venen;De Ronde Venen;Constant
+roosendaal;Roosendaal;Constant
+rotterdam;Rotterdam;Constant
+rozendaal;Rozendaal;Constant
+rucphen;Rucphen;Constant
+schagen;Schagen;Constant
+scherpenzeel;Scherpenzeel;Constant
+schiedam;Schiedam;Constant
+schiermonnikoog;Schiermonnikoog;Constant
+schijndel;Schijndel;Constant
+schinnen;Schinnen;Constant
+schouwen-duiveland;Schouwen-Duiveland;Constant
+simpelveld;Simpelveld;Constant
+sint anthonis;Sint Anthonis;Constant
+sint-michielsgestel;Sint-Michielsgestel;Constant
+sint-oedenrode;Sint-Oedenrode;Constant
+sittard-geleen;Sittard-Geleen;Constant
+sliedrecht;Sliedrecht;Constant
+slochteren;Slochteren;Constant
+sluis;Sluis;Constant
+smallingerland;Smallingerland;Constant
+soest;Soest;Constant
+someren;Someren;Constant
+son en breugel;Son en Breugel;Constant
+stadskanaal;Stadskanaal;Constant
+staphorst;Staphorst;Constant
+stede broec;Stede Broec;Constant
+steenbergen;Steenbergen;Constant
+steenwijkerland;Steenwijkerland;Constant
+stein;Stein;Constant
+stichtse vecht;Stichtse Vecht;Constant
+strijen;Strijen;Constant
+sï¿½dwest-fryslï¿½n;Sï¿½dwest-Fryslï¿½n;Constant
+terneuzen;Terneuzen;Constant
+terschelling;Terschelling;Constant
+texel;Texel;Constant
+teylingen;Teylingen;Constant
+tholen;Tholen;Constant
+tiel;Tiel;Constant
+tilburg;Tilburg;Constant
+tubbergen;Tubbergen;Constant
+twenterand;Twenterand;Constant
+tynaarlo;Tynaarlo;Constant
+tytsjerksteradiel;Tytsjerksteradiel;Constant
+uden;Uden;Constant
+uitgeest;Uitgeest;Constant
+uithoorn;Uithoorn;Constant
+urk;Urk;Constant
+utrecht;Utrecht;Constant
+utrechtse heuvelrug;Utrechtse Heuvelrug;Constant
+vaals;Vaals;Constant
+valkenburg aan de geul;Valkenburg aan de Geul;Constant
+valkenswaard;Valkenswaard;Constant
+veendam;Veendam;Constant
+veenendaal;Veenendaal;Constant
+veere;Veere;Constant
+veghel;Veghel;Constant
+veldhoven;Veldhoven;Constant
+velsen;Velsen;Constant
+venlo;Venlo;Constant
+venray;Venray;Constant
+vianen;Vianen;Constant
+vlaardingen;Vlaardingen;Constant
+vlagtwedde;Vlagtwedde;Constant
+vlieland;Vlieland;Constant
+vlissingen;Vlissingen;Constant
+voerendaal;Voerendaal;Constant
+voorschoten;Voorschoten;Constant
+voorst;Voorst;Constant
+vught;Vught;Constant
+waalre;Waalre;Constant
+waalwijk;Waalwijk;Constant
+waddinxveen;Waddinxveen;Constant
+wageningen;Wageningen;Constant
+wassenaar;Wassenaar;Constant
+waterland;Waterland;Constant
+weert;Weert;Constant
+weesp;Weesp;Constant
+werkendam;Werkendam;Constant
+west maas en waal;West Maas en Waal;Constant
+westerveld;Westerveld;Constant
+westervoort;Westervoort;Constant
+westland;Westland;Constant
+weststellingwerf;Weststellingwerf;Constant
+westvoorne;Westvoorne;Constant
+wierden;Wierden;Constant
+wijchen;Wijchen;Constant
+wijdemeren;Wijdemeren;Constant
+wijk bij duurstede;Wijk bij Duurstede;Constant
+winsum;Winsum;Constant
+winterswijk;Winterswijk;Constant
+woensdrecht;Woensdrecht;Constant
+woerden;Woerden;Constant
+de wolden;De Wolden;Constant
+wormerland;Wormerland;Constant
+woudenberg;Woudenberg;Constant
+woudrichem;Woudrichem;Constant
+zaanstad;Zaanstad;Constant
+zaltbommel;Zaltbommel;Constant
+zandvoort;Zandvoort;Constant
+zederik;Zederik;Constant
+zeewolde;Zeewolde;Constant
+zeist;Zeist;Constant
+zevenaar;Zevenaar;Constant
+zoetermeer;Zoetermeer;Constant
+zoeterwoude;Zoeterwoude;Constant
+zuidhorn;Zuidhorn;Constant
+zuidplas;Zuidplas;Constant
+zundert;Zundert;Constant
+zutphen;Zutphen;Constant
+zwartewaterland;Zwartewaterland;Constant
+zwijndrecht;Zwijndrecht;Constant
+zwolle;Zwolle;Constant
+onbekend;Onbekend;Constant
+januari;januari;Constant
+jan;januari;Constant
+februari;februari;Constant
+feb;februari;Constant
+maart;maart;Constant
+mrt;maart;Constant
+april;april;Constant
+apr;april;Constant
+mei;mei;Constant
+juni;juni;Constant
+jun;juni;Constant
+juli;juli;Constant
+jul;juli;Constant
+augustus;augustus;Constant
+aug;augustus;Constant
+september;september;Constant
+sep;september;Constant
+oktober;oktober;Constant
+okt;oktober;Constant
+november;november;Constant
+nov;november;Constant
+december;december;Constant
+dec;december;Constant
+vermogensmisdrijf;Vermogensmisdrijven;Constant
+overval;Diefstal en inbraak met geweld (WvSr art. 312);Constant
+overvallen;Diefstal en inbraak met geweld (WvSr art. 312);Constant
+stelen;Diefstal en inbraak zonder geweld (WvSr art. 310,311,321-325);Constant
+inbreken;Diefstal en inbraak zonder geweld (WvSr art. 310,311,321-325);Constant
+diefstal;Diefstal en inbraak zonder geweld (WvSr art. 310,311,321-325);Constant
+diefstallen;Diefstal en inbraak zonder geweld (WvSr art. 310,311,321-325);Constant
+bedriegen;Bedrog (WvSr art 326-338);Constant
+oplichten;Oplichting (WvSr art. 326);Constant
+flessentrekkerij;Flessentrekkerij (WvSr art. 326a);Constant
+valsheidsmisdrijf;Valsheidsmisdrijven (WvSr art. 208-214, 216-223, 225-234);Constant
+muntmisdrijf;Muntmisdrijf (WvSr art. 208-214);Constant
+valsheid in geschriften;Valsheid in geschriften (WvSr art. 225-234);Constant
+helen;Heling (WvSr art. 416-417bis);Constant
+afpersen;Afpersing en afdreiging (WvSr art. 317-318);Constant
+bankbreuk;Bankbreuk (WvSr art. 340-343);Constant
+witwassen;Witwassen (WvSr art. 420bis-420quater);Constant
+vernielen;Vernieling en beschadiging (WvSr art. 350-352);Constant
+beschadigen;Vernieling en beschadiging (WvSr art. 350-352);Constant
+dierenmishandeling;Dierenmishandeling;Constant
+geweld;Openlijke geweldpleging tegen persoon (WvSr art. 141);Constant
+geweldpleging;Openlijke geweldpleging tegen persoon (WvSr art. 141);Constant
+huisvredebreuk;Huisvredebreuk (WvSr art. 138);Constant
+lokaalvredebreuk;Lokaalvredebreuk (WvSr art. 139);Constant
+computervredebreuk;Computervredebreuk (WvSr art. 138ab, 138b);Constant
+cybercrime;Computervredebreuk (WvSr art. 138ab, 138b);Constant
+discriminatie;Discriminatie (WvSr art. 137c-137g);Constant
+brandstichten;Brandstichting/ontploffing (WvSr art. 157-158);Constant
+brandstichting;Brandstichting/ontploffing (WvSr art. 157-158);Constant
+brandstichtingen;Brandstichting/ontploffing (WvSr art. 157-158);Constant
+bevel;Niet opvolgen van ambtelijk bevel (WvSr art. 184);Constant
+wederspannigheid;Wederspannigheid (WvSr art. 180-182);Constant
+verzetten;Wederspannigheid (WvSr art. 180-182);Constant
+valse aangifte;Valse aangifte (WvSr art. 188);Constant
+mishandelen;Mishandeling (WvSr art. 300-306);Constant
+bedreigen;Bedreiging (WvSr art. 284a-285a);Constant
+stalken;Stalking (WvSr art. 285b);Constant
+verkrachten;Verkrachting (WvSr art. 242);Constant
+ontucht;Ontucht met minderjarige (WvSr art. 248a-248e);Constant
+porno;Pornografie (WvSr art. 240-240b);Constant
+pornografie;Pornografie (WvSr art. 240-240b);Constant
+gijzelen;Vrijheidsbeneming/gijzeling (WvSr art. 282-282a);Constant
+mensenhandel;Mensenhandel (WvSr art. 273f);Constant
+verkeersmisdrijf;Verkeersmisdrijven;Constant
+rijden onder invloed;Rijden onder invloed (WVW art. 8);Constant
+rijden zonder rijbewijs;Rijden tijdens ontzegging/onbevoegd besturen (WVW art. 9);Constant
+vals kenteken;Voeren vals kenteken (WVW art. 41);Constant
+joyriden;Joyriding (WVW art. 11);Constant
+blaastest;Weigeren blaastest/bloedonderzoek e0d0 (WVW art. 163);Constant
+drugsmisdrijf;Drugsmisdrijven;Constant
+harddrugs;Harddrugs (Opiumwet art. 2);Constant
+heroine;Harddrugs (Opiumwet art. 2);Constant
+cocaine;Harddrugs (Opiumwet art. 2);Constant
+xtc;Harddrugs (Opiumwet art. 2);Constant
+speed;Harddrugs (Opiumwet art. 2);Constant
+softdrugs;Softdrugs (Opiumwet art. 3);Constant
+wiet;Softdrugs (Opiumwet art. 3);Constant
+vuurwapen;(Vuur)wapenmisdrijven;Constant
+wapen;(Vuur)wapenmisdrijven;Constant
+militair misdrijf;Militaire misdrijven (WvMSr art. 96-166);Constant
+delict;delict;ObjectType
+misdrijf;delict;ObjectType
+vergrijp;delict;ObjectType
+overtreding;delict;ObjectType
+datum;datum;ObjectType
+data;datum;ObjectType
+dag;datum;ObjectType
+dagen;datum;ObjectType
+maand;maand;CategoricalVariable
+maanden;maand;CategoricalVariable
+verdachten;aantal verdachten;NumericalVariable
+hoeveel verdachten;aantal verdachten;NumericalVariable
+aantal verdachten;aantal verdachten;NumericalVariable
+jong;leeftijd;NumericalVariable

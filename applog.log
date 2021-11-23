@@ -1,0 +1,59 @@
+2021-11-19 17:31:38,695:INFO:Question: Gemeente met meeste delicten
+2021-11-19 17:31:39,541:ERROR: Question Gemeente met meeste delicten produced error 'NoneType' object is not iterable, which occured in module <module '__main__' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\ask_and_answer.py'>
+2021-11-19 17:48:49,377:INFO:Question: Gemeente met meeste delicten
+2021-11-19 17:48:50,244:ERROR: Question Gemeente met meeste delicten produced error 'NoneType' object is not iterable, which occured in module <module '__main__' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\ask_and_answer.py'>
+2021-11-23 15:18:14,763:INFO:Question: Gemeente met meeste delicten
+2021-11-23 15:18:15,870:ERROR: Question Gemeente met meeste delicten produced error 'NoneType' object is not iterable, which occured in module <module '__main__' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\ask_and_answer.py'>
+2021-11-23 15:20:09,758:INFO:Question: Hoeveel mensen uit Den Haag werken in Leiden?
+2021-11-23 15:20:20,312:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:23:07,563:INFO:Question: Hoeveel banen zijn er in rotterdam
+2021-11-23 15:24:27,932:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:24:42,121:INFO:Question: Wat is het grootste bedrijf in Delft?
+2021-11-23 15:24:42,965:ERROR: Question Wat is het grootste bedrijf in Delft? produced error list index out of range, which occured in module <module 'farseer.inform.infrm' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\farseer\\inform\\infrm.py'>
+2021-11-23 15:26:33,657:INFO:Question: wat is de grootse gemeente van nederland
+2021-11-23 15:27:40,518:INFO:Question: grootste gemeente
+2021-11-23 15:28:30,670:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:28:40,567:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:28:50,752:INFO:Question: grootste bedrijf in delft
+2021-11-23 15:28:51,451:ERROR: Question grootste bedrijf in delft produced error list index out of range, which occured in module <module 'farseer.inform.infrm' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\farseer\\inform\\infrm.py'>
+2021-11-23 15:30:09,449:INFO:Question: grootste bedrijf in delft
+2021-11-23 15:30:10,295:ERROR: Question grootste bedrijf in delft produced error list index out of range, which occured in module <module 'farseer.inform.infrm' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\farseer\\inform\\infrm.py'>
+2021-11-23 15:31:03,113:INFO:Question: grootste bedrijf in delft
+2021-11-23 15:31:04,111:ERROR: Question grootste bedrijf in delft produced error list index out of range, which occured in module <module 'farseer.inform.infrm' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\farseer\\inform\\infrm.py'>
+2021-11-23 15:33:37,625:INFO:Question: Gemiddelde aantal mensen op een adres in Den Haag
+2021-11-23 15:33:37,690:ERROR: Question Gemiddelde aantal mensen op een adres in Den Haag produced error [E109] Component 'lookup_component' could not be run. Did you forget to call `initialize()`?, which occured in module <module 'spacy.language' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\site-packages\\spacy\\language.py'>
+2021-11-23 15:36:01,032:INFO:Question: Gemiddelde aantal delicten in rotterdam
+2021-11-23 15:36:03,280:ERROR: Question Gemiddelde aantal delicten in rotterdam produced error local variable 'cols' referenced before assignment, which occured in module <module 'ask' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\ask.py'>
+2021-11-23 15:38:19,624:INFO:Question: Gemiddelde leeftijd per gemeente
+2021-11-23 15:38:24,820:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:38:31,009:INFO:Question: Gemiddelde aantal mensen op een adres in Den Haag
+2021-11-23 15:38:31,603:ERROR: Question Gemiddelde aantal mensen op een adres in Den Haag produced error [E109] Component 'lookup_component' could not be run. Did you forget to call `initialize()`?, which occured in module <module 'spacy.language' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\site-packages\\spacy\\language.py'>
+2021-11-23 15:41:33,557:INFO:Question: Gemiddelde aantal mensen op een adres in den haag
+2021-11-23 15:41:33,611:ERROR: Question Gemiddelde aantal mensen op een adres in den haag produced error [E109] Component 'lookup_component' could not be run. Did you forget to call `initialize()`?, which occured in module <module 'spacy.language' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\site-packages\\spacy\\language.py'>
+2021-11-23 15:41:47,440:INFO:Question: aantal mensen in den haag
+2021-11-23 15:46:46,379:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:46:57,048:INFO:Question: aantal mensen op een adres in den haag
+2021-11-23 15:46:57,100:ERROR: Question aantal mensen op een adres in den haag produced error [E109] Component 'lookup_component' could not be run. Did you forget to call `initialize()`?, which occured in module <module 'spacy.language' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\site-packages\\spacy\\language.py'>
+2021-11-23 15:47:05,520:INFO:Question: aantal mensen in den haag
+2021-11-23 15:47:18,742:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:47:24,454:INFO:Question: aantal mensen
+2021-11-23 15:47:26,514:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:47:32,925:INFO:Question: aantal mensen op een adres in den haag
+2021-11-23 15:47:32,981:ERROR: Question aantal mensen op een adres in den haag produced error [E109] Component 'lookup_component' could not be run. Did you forget to call `initialize()`?, which occured in module <module 'spacy.language' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\site-packages\\spacy\\language.py'>
+2021-11-23 15:48:50,563:INFO:Question: aantal mensen op een adres in rotterdam
+2021-11-23 15:48:50,613:ERROR: Question aantal mensen op een adres in rotterdam produced error [E109] Component 'lookup_component' could not be run. Did you forget to call `initialize()`?, which occured in module <module 'spacy.language' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\site-packages\\spacy\\language.py'>
+2021-11-23 15:49:06,955:INFO:Question: aantal mensen in rotterdam op een adres
+2021-11-23 15:49:07,018:ERROR: Question aantal mensen in rotterdam op een adres produced error [E109] Component 'lookup_component' could not be run. Did you forget to call `initialize()`?, which occured in module <module 'spacy.language' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\site-packages\\spacy\\language.py'>
+2021-11-23 15:49:19,713:INFO:Question: aantal bedrijven in de grootste gemeente
+2021-11-23 15:49:47,492:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:49:54,554:INFO:Question: grootste gemeente
+2021-11-23 15:49:56,805:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:50:04,870:INFO:Question: aantal bedrijven in rotterdam
+2021-11-23 15:50:12,516:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:50:15,611:INFO:Question: Hoeveel mensen uit Den Haag werken in Leiden?
+2021-11-23 15:50:19,604:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 15:50:33,514:INFO:Question: gemeente met de meeste verdachten van een delict
+2021-11-23 15:50:33,568:ERROR: Question gemeente met de meeste verdachten van een delict produced error [E109] Component 'lookup_component' could not be run. Did you forget to call `initialize()`?, which occured in module <module 'spacy.language' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\site-packages\\spacy\\language.py'>
+2021-11-23 15:53:51,987:INFO:Question: wat is het totale inkomen per adres van alle adressen op de Meppelerweg in Den Haag?
+2021-11-23 15:53:54,305:ERROR: Question wat is het totale inkomen per adres van alle adressen op de Meppelerweg in Den Haag? produced error expected string or bytes-like object, which occured in module <module 're' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\re.py'>
+2021-11-23 17:13:49,301:INFO:Question: wat is het gemiddelde aantal personen op adres in den haag

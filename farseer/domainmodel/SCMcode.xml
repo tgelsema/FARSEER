@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><Codelijst>
+        <Code>
+          <Waarde>1000000</Waarde>
+          <Label>Vermogensmisdrijven</Label>
+        </Code>
+        <Code>
+          <Waarde>1010000</Waarde>
+          <Label>Diefstal/verduistering en inbraak (WvSr art. 310-312, 321-325)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010100</Waarde>
+          <Label>Diefstal en inbraak met geweld (WvSr art. 312)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010101</Waarde>
+          <Label>Diefstal van fiets</Label>
+        </Code>
+        <Code>
+          <Waarde>1010102</Waarde>
+          <Label>Diefstal van bromfiets/snorfiets</Label>
+        </Code>
+        <Code>
+          <Waarde>1010103</Waarde>
+          <Label>Diefstal van motor/scooter</Label>
+        </Code>
+        <Code>
+          <Waarde>1010104</Waarde>
+          <Label>Diefstal van personenauto</Label>
+        </Code>
+        <Code>
+          <Waarde>1010105</Waarde>
+          <Label>Diefstal van vervoermiddel (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010106</Waarde>
+          <Label>Diefstal van vaartuig</Label>
+        </Code>
+        <Code>
+          <Waarde>1010107</Waarde>
+          <Label>Diefstal uit/vanaf personenauto</Label>
+        </Code>
+        <Code>
+          <Waarde>1010108</Waarde>
+          <Label>Diefstal uit/vanaf vervoermiddel (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010109</Waarde>
+          <Label>Diefstal uit/vanaf vaartuig</Label>
+        </Code>
+        <Code>
+          <Waarde>1010111</Waarde>
+          <Label>Straatroof</Label>
+        </Code>
+        <Code>
+          <Waarde>1010113</Waarde>
+          <Label>Diefstal/inbraak uit woning</Label>
+        </Code>
+        <Code>
+          <Waarde>1010114</Waarde>
+          <Label>Diefstal/inbraak uit box/garage/schuur/tuinhuis</Label>
+        </Code>
+        <Code>
+          <Waarde>1010115</Waarde>
+          <Label>Winkeldiefstal</Label>
+        </Code>
+        <Code>
+          <Waarde>1010116</Waarde>
+          <Label>Diefstal/inbraak uit winkel/bedrijf/kantoor</Label>
+        </Code>
+        <Code>
+          <Waarde>1010117</Waarde>
+          <Label>Diefstal/inbraak uit hotel/pension</Label>
+        </Code>
+        <Code>
+          <Waarde>1010118</Waarde>
+          <Label>Diefstal/inbraak uit school</Label>
+        </Code>
+        <Code>
+          <Waarde>1010119</Waarde>
+          <Label>Diefstal/inbraak uit sportcomplex</Label>
+        </Code>
+        <Code>
+          <Waarde>1010121</Waarde>
+          <Label>Diefstal/inbraak uit gebouw (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010122</Waarde>
+          <Label>Overval</Label>
+        </Code>
+        <Code>
+          <Waarde>1010123</Waarde>
+          <Label>Diefstal en inbraak (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010200</Waarde>
+          <Label>Diefstal en inbraak zonder geweld (WvSr art. 310,311,321-325)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010201</Waarde>
+          <Label>Diefstal van fiets</Label>
+        </Code>
+        <Code>
+          <Waarde>1010202</Waarde>
+          <Label>Diefstal van bromfiets/snorfiets</Label>
+        </Code>
+        <Code>
+          <Waarde>1010203</Waarde>
+          <Label>Diefstal van motor/scooter</Label>
+        </Code>
+        <Code>
+          <Waarde>1010204</Waarde>
+          <Label>Diefstal van personenauto</Label>
+        </Code>
+        <Code>
+          <Waarde>1010205</Waarde>
+          <Label>Diefstal van vervoermiddel (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010206</Waarde>
+          <Label>Diefstal van vaartuig</Label>
+        </Code>
+        <Code>
+          <Waarde>1010207</Waarde>
+          <Label>Diefstal uit/vanaf personenauto</Label>
+        </Code>
+        <Code>
+          <Waarde>1010208</Waarde>
+          <Label>Diefstal uit/vanaf vervoermiddel (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010209</Waarde>
+          <Label>Diefstal uit/vanaf vaartuig</Label>
+        </Code>
+        <Code>
+          <Waarde>1010210</Waarde>
+          <Label>Diefstal van dier</Label>
+        </Code>
+        <Code>
+          <Waarde>1010212</Waarde>
+          <Label>Zakkenrollerij</Label>
+        </Code>
+        <Code>
+          <Waarde>1010213</Waarde>
+          <Label>Diefstal/inbraak uit woning</Label>
+        </Code>
+        <Code>
+          <Waarde>1010214</Waarde>
+          <Label>Diefstal/inbraak uit box/garage/schuur/tuinhuis</Label>
+        </Code>
+        <Code>
+          <Waarde>1010215</Waarde>
+          <Label>Winkeldiefstal</Label>
+        </Code>
+        <Code>
+          <Waarde>1010216</Waarde>
+          <Label>Diefstal/inbraak uit winkel/bedrijf/kantoor</Label>
+        </Code>
+        <Code>
+          <Waarde>1010217</Waarde>
+          <Label>Diefstal/inbraak uit hotel/pension</Label>
+        </Code>
+        <Code>
+          <Waarde>1010218</Waarde>
+          <Label>Diefstal/inbraak uit school</Label>
+        </Code>
+        <Code>
+          <Waarde>1010219</Waarde>
+          <Label>Diefstal/inbraak uit sportcomplex</Label>
+        </Code>
+        <Code>
+          <Waarde>1010220</Waarde>
+          <Label>Diefstal/inbraak uit defensiecomplex</Label>
+        </Code>
+        <Code>
+          <Waarde>1010221</Waarde>
+          <Label>Diefstal/inbraak uit gebouw (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>1010223</Waarde>
+          <Label>Diefstal en inbraak (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>1020000</Waarde>
+          <Label>Bedrog (WvSr art 326-338)</Label>
+        </Code>
+        <Code>
+          <Waarde>1020100</Waarde>
+          <Label>Oplichting (WvSr art. 326)</Label>
+        </Code>
+        <Code>
+          <Waarde>1020200</Waarde>
+          <Label>Flessentrekkerij (WvSr art. 326a)</Label>
+        </Code>
+        <Code>
+          <Waarde>1020300</Waarde>
+          <Label>Bedrog (overig)  (WvSr art. 326b-338)</Label>
+        </Code>
+        <Code>
+          <Waarde>1030000</Waarde>
+          <Label>Valsheidsmisdrijven (WvSr art. 208-214, 216-223, 225-234)</Label>
+        </Code>
+        <Code>
+          <Waarde>1030100</Waarde>
+          <Label>Muntmisdrijf (WvSr art. 208-214)</Label>
+        </Code>
+        <Code>
+          <Waarde>1030200</Waarde>
+          <Label>Valsheid in zegels en merken (WvSr art. 216-223)</Label>
+        </Code>
+        <Code>
+          <Waarde>1030300</Waarde>
+          <Label>Valsheid in geschriften (WvSr art. 225-234)</Label>
+        </Code>
+        <Code>
+          <Waarde>1040000</Waarde>
+          <Label>Heling (WvSr art. 416-417bis)</Label>
+        </Code>
+        <Code>
+          <Waarde>1050000</Waarde>
+          <Label>Afpersing en afdreiging (WvSr art. 317-318)</Label>
+        </Code>
+        <Code>
+          <Waarde>1060000</Waarde>
+          <Label>Bankbreuk (WvSr art. 340-343)</Label>
+        </Code>
+        <Code>
+          <Waarde>1070000</Waarde>
+          <Label>Witwassen (WvSr art. 420bis-420quater)</Label>
+        </Code>
+        <Code>
+          <Waarde>1080000</Waarde>
+          <Label>Vermogensmisdrijf (overig) (WvSr art. 314-315, 344-348)</Label>
+        </Code>
+        <Code>
+          <Waarde>2000000</Waarde>
+          <Label>Vernielingen en misdrijven tegen openbare orde en gezag</Label>
+        </Code>
+        <Code>
+          <Waarde>2010000</Waarde>
+          <Label>Vernieling en beschadiging (WvSr art. 350-352)</Label>
+        </Code>
+        <Code>
+          <Waarde>2010100</Waarde>
+          <Label>Vernieling aan auto</Label>
+        </Code>
+        <Code>
+          <Waarde>2010200</Waarde>
+          <Label>Vernieling aan openbaar gebouw</Label>
+        </Code>
+        <Code>
+          <Waarde>2010300</Waarde>
+          <Label>Vernieling aan middel openbaar vervoer</Label>
+        </Code>
+        <Code>
+          <Waarde>2010400</Waarde>
+          <Label>Dierenmishandeling</Label>
+        </Code>
+        <Code>
+          <Waarde>2010500</Waarde>
+          <Label>Vernieling en beschadiging (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020000</Waarde>
+          <Label>Openbare orde misdrijf (WvSr art. 131-136, 138-151c)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020100</Waarde>
+          <Label>Openlijke geweldpleging (WvSr art. 141)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020101</Waarde>
+          <Label>Openlijke geweldpleging tegen persoon (WvSr art. 141)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020102</Waarde>
+          <Label>Openlijke geweldpleging tegen goed (WvSr art. 141)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020200</Waarde>
+          <Label>Huisvredebreuk (WvSr art. 138)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020300</Waarde>
+          <Label>Lokaalvredebreuk (WvSr art. 139)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020400</Waarde>
+          <Label>Computervredebreuk (WvSr art. 138ab, 138b)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020500</Waarde>
+          <Label>Discriminatie (WvSr art. 137c-137g)</Label>
+        </Code>
+        <Code>
+          <Waarde>2020600</Waarde>
+          <Label>Openbare orde misdrijf (overig) (WvSr art. 131-137, 138a, 139a-140, 142-151c)</Label>
+        </Code>
+        <Code>
+          <Waarde>2030000</Waarde>
+          <Label>Brandstichting/ontploffing (WvSr art. 157-158)</Label>
+        </Code>
+        <Code>
+          <Waarde>2040000</Waarde>
+          <Label>Openbaar gezag misdrijf  (WvSr art. 177-182, 184-206)</Label>
+        </Code>
+        <Code>
+          <Waarde>2040100</Waarde>
+          <Label>Niet opvolgen van ambtelijk bevel (WvSr art. 184)</Label>
+        </Code>
+        <Code>
+          <Waarde>2040200</Waarde>
+          <Label>Wederspannigheid (WvSr art. 180-182)</Label>
+        </Code>
+        <Code>
+          <Waarde>2040300</Waarde>
+          <Label>Valse aangifte (WvSr art. 188)</Label>
+        </Code>
+        <Code>
+          <Waarde>2040400</Waarde>
+          <Label>Mensensmokkel (WvSr art. 197a)</Label>
+        </Code>
+        <Code>
+          <Waarde>2040500</Waarde>
+          <Label>Verblijf van ongewenste vreemdeling (WvSr art. 197)</Label>
+        </Code>
+        <Code>
+          <Waarde>2040600</Waarde>
+          <Label>Openbaar gezag misdrijf (overig) (WvSr art. 177-179, 185-187, 189-196, 197b-206)</Label>
+        </Code>
+        <Code>
+          <Waarde>3000000</Waarde>
+          <Label>Gewelds- en seksuele misdrijven</Label>
+        </Code>
+        <Code>
+          <Waarde>3010000</Waarde>
+          <Label>Mishandeling (WvSr art. 300-306)</Label>
+        </Code>
+        <Code>
+          <Waarde>3020000</Waarde>
+          <Label>Bedreiging en stalking (WvSr art. 284a-285b)</Label>
+        </Code>
+        <Code>
+          <Waarde>3020100</Waarde>
+          <Label>Bedreiging (WvSr art. 284a-285a)</Label>
+        </Code>
+        <Code>
+          <Waarde>3020200</Waarde>
+          <Label>Stalking (WvSr art. 285b)</Label>
+        </Code>
+        <Code>
+          <Waarde>3030000</Waarde>
+          <Label>Seksueel misdrijf (WvSr art. 239-250)</Label>
+        </Code>
+        <Code>
+          <Waarde>3030100</Waarde>
+          <Label>Aanranding  (WvSr art. 246)</Label>
+        </Code>
+        <Code>
+          <Waarde>3030200</Waarde>
+          <Label>Verkrachting (WvSr art. 242)</Label>
+        </Code>
+        <Code>
+          <Waarde>3030300</Waarde>
+          <Label>Schennis der eerbaarheid (WvSr art. 239)</Label>
+        </Code>
+        <Code>
+          <Waarde>3030400</Waarde>
+          <Label>Ontucht met minderjarige (WvSr art. 248a-248e)</Label>
+        </Code>
+        <Code>
+          <Waarde>3030500</Waarde>
+          <Label>Pornografie (WvSr art. 240-240b)</Label>
+        </Code>
+        <Code>
+          <Waarde>3030600</Waarde>
+          <Label>Ontucht met misbruik van gezag (WvSr art. 249)</Label>
+        </Code>
+        <Code>
+          <Waarde>3030700</Waarde>
+          <Label>Seksueel misdrijf (overig) (WvSr art. 243-245, 247-248, 250)</Label>
+        </Code>
+        <Code>
+          <Waarde>3040000</Waarde>
+          <Label>Levensmisdrijf (WvSr art. 287-296)</Label>
+        </Code>
+        <Code>
+          <Waarde>3050000</Waarde>
+          <Label>Vrijheidsbeneming/gijzeling (WvSr art. 282-282a)</Label>
+        </Code>
+        <Code>
+          <Waarde>3060000</Waarde>
+          <Label>Mensenhandel (WvSr art. 273f)</Label>
+        </Code>
+        <Code>
+          <Waarde>3070000</Waarde>
+          <Label>Geweldsmisdrijf (overig)  (WvSr art. 274-281, 307-308)</Label>
+        </Code>
+        <Code>
+          <Waarde>4000000</Waarde>
+          <Label>Misdrijven WvSr (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>5000000</Waarde>
+          <Label>Verkeersmisdrijven</Label>
+        </Code>
+        <Code>
+          <Waarde>5010000</Waarde>
+          <Label>Verlaten plaats ongeval (WVW art. 7)</Label>
+        </Code>
+        <Code>
+          <Waarde>5020000</Waarde>
+          <Label>Rijden onder invloed (WVW art. 8)</Label>
+        </Code>
+        <Code>
+          <Waarde>5030000</Waarde>
+          <Label>Rijden tijdens ontzegging/onbevoegd besturen (WVW art. 9)</Label>
+        </Code>
+        <Code>
+          <Waarde>5040000</Waarde>
+          <Label>Rijden tijdens rijverbod (WVW art. 162)</Label>
+        </Code>
+        <Code>
+          <Waarde>5050000</Waarde>
+          <Label>Voeren vals kenteken (WVW art. 41)</Label>
+        </Code>
+        <Code>
+          <Waarde>5060000</Waarde>
+          <Label>Joyriding (WVW art. 11)</Label>
+        </Code>
+        <Code>
+          <Waarde>5070000</Waarde>
+          <Label>Weigeren blaastest/bloedonderzoek e0d0 (WVW art. 163)</Label>
+        </Code>
+        <Code>
+          <Waarde>5080000</Waarde>
+          <Label>Verkeersmisdrijf (overig) (WVW art. 6, 51, 61, 74, 114, 138)</Label>
+        </Code>
+        <Code>
+          <Waarde>6000000</Waarde>
+          <Label>Drugsmisdrijven</Label>
+        </Code>
+        <Code>
+          <Waarde>6010000</Waarde>
+          <Label>Harddrugs (Opiumwet art. 2)</Label>
+        </Code>
+        <Code>
+          <Waarde>6020000</Waarde>
+          <Label>Softdrugs (Opiumwet art. 3)</Label>
+        </Code>
+        <Code>
+          <Waarde>6030000</Waarde>
+          <Label>Drugsmisdrijven (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>7000000</Waarde>
+          <Label>(Vuur)wapenmisdrijven</Label>
+        </Code>
+        <Code>
+          <Waarde>9000000</Waarde>
+          <Label>Misdrijven overige wetten</Label>
+        </Code>
+        <Code>
+          <Waarde>9010000</Waarde>
+          <Label>Militaire misdrijven (WvMSr art. 96-166)</Label>
+        </Code>
+        <Code>
+          <Waarde>9020000</Waarde>
+          <Label>Misdrijven (overig)</Label>
+        </Code>
+        <Code>
+          <Waarde>9090000</Waarde>
+          <Label>Aard misdrijf onbekend</Label>
+        </Code>
+      </Codelijst>

@@ -1,0 +1,1 @@
+{"name": "gemeente", "constr": {"construction_type": "Application", "arguments": {"operator": "product", "operands": [{"name": "gemeente_id", "domain": "gemeente", "codomain": "identificatie"}, {"name": "gemeentenaam", "domain": "gemeente", "codomain": "gemeentenamen"}]}}}

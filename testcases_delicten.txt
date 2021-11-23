@@ -1,0 +1,44 @@
+Totaal aantal verdachten van geweldpleging
+Aantal verdachten van geweldpleging
+Dagen waarop brandstichting is gepleegd
+Maanden waarin brandstichting is gepleegd
+Gemeenten met vernielingen aan auto's
+Gemeenten met vernielingen aan auto's in december
+Welke dagen zijn er?
+Gevallen van dierenmishandeling met datums
+Aantal delicten
+Aantal delicten in Aalsmeer
+Aantal delicten per gemeente
+Aantal delicten per dag
+Aantal brandstichtingen per dag en gemeente
+Aantal gevallen van stalking in Amsterdam
+Totaal aantal verdachten van brandstichting
+Totaal aantal verdachten van geweld in Leiden
+Wat is het aantal verdachten in mei in totaal?
+Het totaal aantal verdachten in Amsterdam in mei van verkrachting
+Het gemiddeld aantal verdachten van geweld
+Wat is gemiddeld het aantal verdachten van mishandeling?
+Het gemiddelde aantal verdachten van vernieling per gemeente
+Wat is gemiddeld het aantal verdachten van cybercrime per maand?
+Het gemiddeld aantal verdachten in Delft van inbraak per maand
+Wat is het gemiddeld aantal delicten per dag?
+Het gemiddeld aantal diefstallen per dag?
+Wat is het gemiddeld aantal vernieling per dag in Delft?
+Wat is het gemiddeld aantal brandstichtingen per gemeente?
+Het gemiddeld aantal gevallen van geweld per gemeente in mei
+Op welke dag zijn er de meeste delicten gepleegd?
+In welke gemeente zijn er de meeste overvallen gepleegd?
+Wat is de gemeente met de meeste brandstichtingen?
+Op welke dag zijn er de meeste gevallen van inbraak in Delft gepleegd?
+In welke gemeente zijn er de meeste verdachten in totaal?
+Op welke dag waren er het meeste verdachten in totaal?
+In welke gemeente zijn er in mei de meeste verdachten in totaal?
+Op welke dag in Leiden waren er de meeste verdachten van brandstichting in totaal?
+In welke gemeente zijn er gemiddeld het meeste aantal verdachten?
+Op welke dag in mei zijn er gemiddeld het grootste aantal verdachten?
+De gemeente met het grootste aantal verdachten van brandstichting
+De dag met het grootste aantal verdachten van inbraak
+De dag met het grootste aantal verdachten van inbraak in Leiden
+Welke gemeente heeft gemiddeld het grootst aantal gevallen van inbraak per dag?
+In welke gemeente wordt gemiddeld het meeste brand gesticht per dag?
+In welke gemeente wordt in totaal het meeste brand gesticht?

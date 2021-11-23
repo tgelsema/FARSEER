@@ -1,0 +1,7 @@
+kind;sort;orderedobjecttype;orderedobjecttypesort
+adres;ObjectType;een(persoon);Variable
+gemeente;ObjectType;een(persoon);Variable
+bedrijf;ObjectType;omzet;Variable
+baan;ObjectType;salaris;Variable
+delict;ObjectType;een(delict);Variable
+datum;ObjectType;een(datum);Variable

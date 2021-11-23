@@ -1,0 +1,6 @@
+kind;sort;orientation;orientationsort
+werknemer;ObjectTypeRelation;persoon;ObjectType
+werkgever;ObjectTypeRelation;bedrijf;ObjectType
+woont op;ObjectTypeRelation;persoon;ObjectType
+gevestigd op;ObjectTypeRelation;bedrijf;ObjectType
+ligt in;ObjectTypeRelation;adres;ObjectType

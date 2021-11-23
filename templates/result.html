@@ -1,0 +1,88 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+{{ super() }}
+	<style>
+		body { background: #e8f1f9; }
+	</style>
+{% endblock %}
+
+
+{% block title %}
+Farseer
+{% endblock %}
+
+<link rel="stylesheet" href="/static/styles.css" />
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-lg-8 mx-lg-auto mx-md-auto">
+
+      <h1 class="pt-5 pb-2">Welkom bij Farseer. Vind hier het antwoord op uw statistische vragen.</h1>
+
+      <p class="lead">Let op: dit is een experimenteel product, aan de resultaten kunnen geen rechten worden ontleend</p>
+      <table class="table table-striped">
+        <tr class="table__header">
+          {% for title in columntitles %}
+          <th class="table__cell">{{ title }}</th>
+          {% endfor %}
+        </tr>
+        {%for row in rows%}
+        <tr class="table__row">
+          {% for cell in row %}
+          <td class="table__cell">{{ cell }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </table>
+    {% if rows|length == 20%}
+      Maximaal 20 rijen.
+    {% endif %}
+    <table>
+      <tr VALIGN=TOP>
+        <td><i>Onderwerp(en): </i></td>
+        <td>
+          <i>
+        {%for onderwerp in expl_dict["subjects"]%}
+        &emsp;{{onderwerp}}<br>
+        {% endfor %}
+        </td>
+          </i>
+      </tr>
+      {% if expl_dict["conditions"] %}
+      <tr VALIGN=TOP>
+        <td><i>Conditie(s):</i></td>
+        <td>
+        <i>
+          {% for conditie in expl_dict["conditions"] %}
+          &emsp;{{conditie}}<br>
+          {% endfor %}
+        </i>
+        </td>
+      </tr>
+      {% endif %}
+      {% if expl_dict["dimensions"] %}
+      <tr VALIGN=TOP>
+        <td><i>Dimensie(s):</i></td>
+        <td>
+        <i>
+          {% for dimensie in expl_dict["dimensions"] %}
+          &emsp;{{dimensie}}<br>
+          {% endfor %}
+        </i>
+        </td>
+      </tr>
+      {% endif %}
+    </table>
+
+      {{wtf.quick_form(eval_form)}}
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+ 

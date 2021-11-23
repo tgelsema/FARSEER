@@ -1,0 +1,4 @@
+kind;sort;interrogativepronouns;interrogativepronounssort
+persoon;ObjectType;wie;str
+adres;ObjectType;waar;str
+gemeente;ObjectType;waar;str

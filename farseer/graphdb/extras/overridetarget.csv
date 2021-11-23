@@ -1,0 +1,8 @@
+kind;sort;overridetarget;overridetargetsort
+beroepen;Phenomenon;persoon;ObjectType
+geslachten;Phenomenon;persoon;ObjectType
+activiteiten;Phenomenon;bedrijf;ObjectType
+SCM code level 0;Level;delict;ObjectType
+SCM code level 1;Level;delict;ObjectType
+SCM code level 2;Level;delict;ObjectType
+SCM code level 3;Level;delict;ObjectType

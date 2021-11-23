@@ -1,0 +1,26 @@
+tuple;description
+stelen__SEP__geweld;Diefstal en inbraak met geweld (WvSr art. 312)
+inbreken__SEP__geweld;Diefstal en inbraak met geweld (WvSr art. 312)
+diefstal__SEP__geweld;Diefstal en inbraak met geweld (WvSr art. 312)
+vernielen__SEP__auto;Vernieling aan auto
+beschadigen__SEP__auto;Vernieling aan auto
+vernielen__SEP__gebouw;Vernieling aan openbaar gebouw
+beschadigen__SEP__gebouw;Vernieling aan openbaar gebouw
+vernielen__SEP__trein;Vernieling aan middel openbaar vervoer
+beschadigen__SEP__trein;Vernieling aan middel openbaar vervoer
+vernielen__SEP__bus;Vernieling aan middel openbaar vervoer
+beschadigen__SEP__bus;Vernieling aan middel openbaar vervoer
+vernielen__SEP__tram;Vernieling aan middel openbaar vervoer
+beschadigen__SEP__tram;Vernieling aan middel openbaar vervoer
+vernielen__SEP__metro;Vernieling aan middel openbaar vervoer
+beschadigen__SEP__metro;Vernieling aan middel openbaar vervoer
+computer__SEP__inbreken;Computervredebreuk (WvSr art. 138ab, 138b)
+brand__SEP__stichten;Brandstichting/ontploffing (WvSr art. 157-158)
+verblijven__SEP__vreemdeling;Verblijf van ongewenste vreemdeling (WvSr art. 197)
+schenden__SEP__eerbaarheid;Schennis der eerbaarheid (WvSr art. 239)
+ontucht__SEP__gezag;Ontucht met misbruik van gezag (WvSr art. 249)
+verlaten__SEP__ongeval;Verlaten plaats ongeval (WVW art. 7)
+wegrijden__SEP__ongeval;Verlaten plaats ongeval (WVW art. 7)
+wegrijd__SEP__ongeval;Verlaten plaats ongeval (WVW art. 7)
+dronken__SEP__rijden;Rijden onder invloed (WVW art. 8)
+rijden__SEP__verbod;Rijden tijdens rijverbod (WVW art. 162)

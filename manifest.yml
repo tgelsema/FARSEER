@@ -1,0 +1,11 @@
+---
+applications:
+- name: farseer
+  instances: 1
+  memory: 4G
+  disk_quota: 4G
+  buildpacks:
+  - apt_buildpack_cbs #For installing ODBC driver
+  - python_buildpack
+  env:
+   ACCEPT_EULA: Y # Environment variable necessary for installing ODBC driver from EULA 

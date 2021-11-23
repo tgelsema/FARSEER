@@ -1,0 +1,8 @@
+kind;sort;default_1;default_1_sort;default_2;default_2_sort
+persoon;ObjectType;naam;Variable
+adres;ObjectType;straatnaam;Variable;huisnummer;Variable
+gemeente;ObjectType;gemeentenaam;Variable
+baan;ObjectType;baan_id;Variable
+bedrijf;ObjectType;bedrijf_id;Variable
+delict;ObjectType
+datum;ObjectType;dag;Variable;maand;Variable

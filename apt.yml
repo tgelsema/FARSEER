@@ -1,0 +1,14 @@
+# This YAML defines a custom buildpack, 
+# which will install the components necessary for connecting to
+# SQL databases 
+---
+truncatesources: true
+cleancache: true
+keys:
+- https://packages.microsoft.com/keys/microsoft.asc
+repos:
+- deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main
+packages:
+- msodbcsql17
+- mssql-tools
+- unixodbc-dev
