@@ -93,7 +93,6 @@ class LookupComponent:
     
     def __init__(self, nlp, lookup_file):
         lookup = pd.read_csv(lookup_file, sep=';')
-        self.nlp =  nlp #
         self.lookup = {c['lemma']: self.create_order(c) for i, c in lookup.iterrows()}
         patterns = [nlp(c) for c in self.lookup.keys()]
         self.matcher = PhraseMatcher(nlp.vocab, attr=LEMMA)
