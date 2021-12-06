@@ -5,15 +5,6 @@ from farseer.domainmodel.maandlookup import lookupmaand
 from farseer.domainmodel.interpretcodelists import addconsts, makescmcodedata, gemeenteconsts
 import pickle
 
-"""
-Changes made:
-
-- Removed datum as Quantity
-- Added all Variables pointing to identifications to domainmodel, such that DatasetDesigns work with Graph
-
-"""
-
-
 lookup = {}
 
 """Personen, adressen, bedrijven, banen, gemeenten"""
@@ -27,14 +18,14 @@ baan = ObjectType(name='baan', altname='banen')
 
 # phenomena and quantities
 getal = Quantity(name='getal')
-datum = ObjectType(name='datum', altname='data')
+datum = ObjectType(name='datum')
 tekst = Phenomenon(name='tekst')
 gemeentenamen = Phenomenon(name='gemeentenamen')
 straatnamen = Phenomenon(name='straatnamen')
 geslachten = Phenomenon(name='geslachten')
 huisnummers = Phenomenon(name='huisnummers')
 namen = Phenomenon(name='namen')
-identificaties = Phenomenon(name='identificatie')
+identificator = Phenomenon(name='identificator')
 activiteiten = Phenomenon(name='activiteiten')
 beroepen = Phenomenon(name='beroepen')
 
@@ -50,6 +41,7 @@ inwoner = ObjectTypeRelation(name='inwoner', constr=Application(composition, [li
 leeftijd = Variable(name='leeftijd', domain=persoon, codomain=getal, article='de')
 inkomen = Variable(name='inkomen', domain=persoon, codomain=getal, article='het')
 geslacht = Variable(name='geslacht', domain=persoon, codomain=geslachten, article='het')
+geboortedatum = Variable(name='geboortedatum', domain=persoon, codomain=datum, article='de')
 naam = Variable(name='naam', domain=persoon, codomain=namen, article='de')
 huisnummer = Variable(name='huisnummer', domain=adres, codomain=huisnummers, article='het')
 straatnaam = Variable(name='straatnaam', domain=adres, codomain=straatnamen, article='de')
@@ -61,13 +53,13 @@ omzet = Variable(name='omzet', domain=bedrijf, codomain=getal, article='de')
 economischehoofdactiviteit = Variable(name='economische hoofdactiviteit', domain=bedrijf, codomain=activiteiten, article='de')
 
 # keys and foreign keys
-persoonid = Variable(name='persoon_id', domain=persoon, codomain=identificaties)
-adresid = Variable(name='adres_id', domain=adres, codomain=identificaties)
-gemeenteid = Variable(name='gemeente_id', domain=gemeente, codomain=identificaties)
-persoonadresid = Variable(name='woont_op', domain=persoon, codomain=identificaties)
-adresgemeenteid = Variable(name='ligt_in', domain=adres, codomain=identificaties)
-baanid = Variable(name='baan_id', domain=baan, codomain=identificaties)
-bedrijfid = Variable(name='bedrijf_id', domain=bedrijf, codomain=identificaties)
+persoonid = Variable(name='persoon_id', domain=persoon, codomain=identificator)
+adresid = Variable(name='adres_id', domain=adres, codomain=identificator)
+gemeenteid = Variable(name='gemeente_id', domain=gemeente, codomain=identificator)
+persoonadresid = Variable(name='woont_op', domain=persoon, codomain=identificator)
+adresgemeenteid = Variable(name='ligt_in', domain=adres, codomain=identificator)
+baanid = Variable(name='baan_id', domain=baan, codomain=identificator)
+bedrijfid = Variable(name='bedrijf_id', domain=bedrijf, codomain=identificator)
 baanpersoonid = Variable(name='werknemer', domain=baan, codomain=persoon)
 baanbedrijfid = Variable(name='werkgever', domain=baan, codomain=persoon)
 bedrijfadresid = Variable(name='gevestigd_op', domain=bedrijf, codomain=adres)
@@ -137,8 +129,10 @@ gedeelddoor = Operator(name='(/)', domain=Application(cartesian_product,[getal, 
 
 # domain model
 domainmodel = [persoon, adres, gemeente, baan, bedrijf, getal, datum, tekst, gemeentenamen, straatnamen, geslachten, huisnummers,
-      namen, beroepen, activiteiten, woontop, ligtin, werknemer, werkgever, gevestigdop, leeftijd, inkomen, geslacht, naam, huisnummer, straatnaam, gemeentenaam,
+      namen, beroepen, activiteiten, woontop, ligtin, werknemer, werkgever, gevestigdop, leeftijd, inkomen, geslacht, geboortedatum, naam, huisnummer, straatnaam, gemeentenaam,
       salaris, functie, omzet, economischehoofdactiviteit, man, vrouw, gedeelddoor, persoonid, adresid, gemeenteid, baanid, bedrijfid, persoonadresid, adresgemeenteid, bedrijfid]
+
+#### persoonadresid, adresgemeenteid, bedrijfid, baanpersoonid, baanbedrijfid, bedrijfadresid
 
 domainmodel.extend([
       kolonel, wethouder, griffier, seismoloog, watermanager, oogarts, industrie, onderwijs, bouwnijverheid, openbaarbestuur,
@@ -347,7 +341,7 @@ vocab = []
 delict = ObjectType(name='delict', altname='delicten')
 # buurt = ObjectType(name='buurt')
 # gemeente = ObjectType(name='gemeente')
-# datum = ObjectType(name='datum', altname='data') #moved to top
+#datum = ObjectType(name='datum', altname='data')
 
 # phenomena and quantities
 # getal = Quantity(name='getal')
@@ -358,7 +352,7 @@ maanden = Phenomenon(name='maanden')
 # delictsoorten = Phenomenon(name='delictsoort')
 
 # locatiesoorten = Phenomenon(name='locatiesoort')
-identificaties = Phenomenon(name='identificatie')
+#identificaties = Phenomenon(name='identificatie')
 
 # soorten delict
 soortdelictlevel0 = Level("SCM code level 0")
@@ -384,14 +378,14 @@ dag = Variable(name='dag', domain=datum, codomain=dagen, article='de')
 maand = Variable(name='maand', domain=datum, codomain=maanden, article='de')
 
 # keys and foreign keys
-delictid = Variable(name='delict_id', domain=delict, codomain=identificaties)
+delictid = Variable(name='delict_id', domain=delict, codomain=identificator)
 # gemeenteid = Variable(name='gemeente_id', domain=gemeente, codomain=identificaties)
 # buurtid = Variable(name='buurt_id', domain=buurt, codomain=identificaties)
-datumid = Variable(name='datum_id', domain=datum, codomain=identificaties)
+datumid = Variable(name='datum_id', domain=datum, codomain=identificator)
 # delictbuurtid = Variable(name='gepleegd_in', domain=delict, codomain=buurt)
-delictdatumid = Variable(name='gepleegd_op', domain=delict, codomain=identificaties)
+delictdatumid = Variable(name='gepleegd_op', domain=delict, codomain=identificator)
 # buurtgemeenteid = Variable(name='onderdeel_van', domain=buurt, codomain=gemeente)
-delictgemeenteid = Variable(name='gepleegd_in', domain=delict, codomain=identificaties)
+delictgemeenteid = Variable(name='gepleegd_in', domain=delict, codomain=identificator)
 
 # nice to haves
 eendelict = Variable(name='een(delict)', domain=delict, codomain=getal)
@@ -412,7 +406,7 @@ alls += [alledelict, alledatum]
 
 # domain model
 domainmodel += [delict, dagen, maanden,
-               identificaties, gepleegdin, gepleegdop,
+               identificator, gepleegdin, gepleegdop,
                soortdelictlevel0, soortdelictlevel1, soortdelictlevel2, soortdelictlevel3,
                soortlevel0, soortlevel1, soortlevel2, soortlevel3,
                aantalverdachten, dag, maand, delictid, datumid,
@@ -476,8 +470,8 @@ prefvar[soortdelictlevel2] = soortlevel2
 prefvar[soortdelictlevel3] = soortlevel3
 # prefvar[buurtnamen] = buurtnaam
 
-orderedobjecttype[delict] = eendelict
-orderedobjecttype[datum] = eendatum
+# orderedobjecttype[delict] = eendelict
+# orderedobjecttype[datum] = eendatum
 
 # below is probably wrong
 # prefvar[soortlevel0] = soortdelictlevel0
@@ -561,6 +555,7 @@ def savedomainmodel():
           orderedobjecttype, data, getal, gedeelddoor, one, ones, alls]
     with open('./farseer/domainmodel/dm.pickle', mode='wb') as fw:
         pickle.dump(dm, fw, protocol=pickle.HIGHEST_PROTOCOL)
+        
 
 if __name__ == '__main__':
     savedomainmodel()

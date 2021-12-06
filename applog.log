@@ -57,3 +57,8 @@
 2021-11-23 15:53:51,987:INFO:Question: wat is het totale inkomen per adres van alle adressen op de Meppelerweg in Den Haag?
 2021-11-23 15:53:54,305:ERROR: Question wat is het totale inkomen per adres van alle adressen op de Meppelerweg in Den Haag? produced error expected string or bytes-like object, which occured in module <module 're' from 'C:\\Users\\Joeri\\anaconda3\\envs\\ID_integrated\\lib\\re.py'>
 2021-11-23 17:13:49,301:INFO:Question: wat is het gemiddelde aantal personen op adres in den haag
+2021-11-23 17:31:46,095:INFO:Question: Gemeente met meeste delicten
+2021-11-23 17:34:13,419:INFO:Is Answer?: 1, Is clear?: 1
+2021-11-23 17:34:18,082:INFO:Question: Gemeente met meeste delicten
+2021-11-23 17:37:53,388:INFO:Question: Wat is het grootste bedrijf in delft
+2021-11-23 17:37:54,364:ERROR: Question Wat is het grootste bedrijf in delft produced error list index out of range, which occured in module <module 'farseer.inform.infrm' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\farseer\\inform\\infrm.py'>

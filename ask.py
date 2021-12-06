@@ -119,6 +119,7 @@ def report(s, classmodel, classtokenizer, targetmodel, targettokenizer, fw):
         t = round(time.time() - start_time, 4)
         message += '                                        --- %s seconds ---\n' % t
         fw.write(str(t) + "\n")
+        print(message)
         
     else:
         message += 'term:             None'
@@ -217,6 +218,6 @@ if __name__ == '__main__':
     # ask("Wat is het gemiddeld aantal verdachten per maand")
     #ask('In welke gemeente zijn de meeste inbraken in totaal?')
     #ask("Op welke dag zijn er de meeste gevallen van inbraak in Den Haag gepleegd?")
-    ask("Wat is het gemiddelde aantal personen op een adres in den haag")
+    ask("gemiddeld aantal delicten op een adres in een gemeemte")
     #ask("aantal gevallen brandstichting")
     #readnask("testcases_delicten.txt")

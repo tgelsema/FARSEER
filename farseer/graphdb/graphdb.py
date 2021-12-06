@@ -382,6 +382,7 @@ class GraphDB:
 
             if constr_type == "Application":
                 if operator == "product":
+                    print(file_name, args)
                     datadesign = DatasetDesign(name=name, constr=Application(product, args))
         return datadesign
 

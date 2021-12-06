@@ -224,7 +224,7 @@ if __name__ == '__main__':
     # tekst = 'hoeveel wordt er per geslacht in Den Haag verdiend in totaal?'
     # tekst = 'welke gemeente heeft het kleinste aantal inwoners?'
     # tekst = 'Wat is de leeftijd van de oudste inwoner van Nederland'
-    tekst = 'wat is het gemiddelde aantal personen op het adres in den haag' # goed
+    tekst = 'wat is het gemiddelde aantal personen op een adres in den haag' # goed
     # tekst = 'Hoe vaak werd er verzet gepleegd in Leiden?'
     # tekst = 'Hoe vaak pleegde men verzet in Leiden?'
     # tekst = "Hoe vaak was er sprake van wegrijden bij een ongeval." # goed

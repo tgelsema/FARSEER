@@ -486,3 +486,111 @@ JOIN #tmp1 ON (#tmp0.col0 = #tmp1.col0)
 1	getal	(['gemiddeld aantal personen per adres'], [], ["gemeentenaam van een gemeente van een adres van een persoon = 's-Gravenhage", "gemeentenaam van een gemeente van een adres = 's-Gravenhage"])
                                         --- 0.002 seconds ---
 
+2021-11-23 17:31:46,430:INFO:
+line:             Gemeente met meeste delicten
+tokens:           ['gemeente', 'met', 'meeste', 'delicten']
+synonyms:         [None, None, None, None]
+objects:          [gemeente, None, None, delict]
+keywords:         ['<ot>', '<with>', '<most>', '<ot>']
+                                        --- 0.009 seconds ---pivot:            delict
+class:            7
+targetindex:      3
+target:           delict
+target id: d10384c4-4c7a-11ec-b6cc-6c6a77e3fa98                                        --- 0.207 seconds ---
+order variable:   {delict : object type} ---een(delict) : variable--> {getal : quantity} 
+order:            desc 
+term:             a(een(delict), (gemeentenaam o gepleegd in)) : [gemeentenamen -> getal]
+                                        --- 0.022 seconds ---
+sql query:        
+SELECT TOP 5 delict_gepleegd_in.gemeentenaam, SUM(1) AS keyc
+FROM delict
+JOIN gemeente AS delict_gepleegd_in ON (delict_gepleegd_in.gemeente_id = delict.gepleegd_in)
+GROUP BY delict_gepleegd_in.gemeentenaam
+ORDER BY keyc DESC
+
+
+                                        --- 0.001 seconds ---
+gemeentenamen	getal	(['de 5 gemeenten met het grootste aantal delicten'], [], [])
+                                        --- 0.002 seconds ---
+
+2021-11-23 17:34:18,281:INFO:
+line:             Gemeente met meeste delicten
+tokens:           ['gemeente', 'met', 'meeste', 'delicten']
+synonyms:         [None, None, None, None]
+objects:          [gemeente, None, None, delict]
+keywords:         ['<ot>', '<with>', '<most>', '<ot>']
+                                        --- 0.007 seconds ---pivot:            delict
+class:            7
+targetindex:      3
+target:           delict
+target id: d10384c4-4c7a-11ec-b6cc-6c6a77e3fa98                                        --- 0.1266 seconds ---
+order variable:   {delict : object type} ---een(delict) : variable--> {getal : quantity} 
+order:            desc 
+term:             a(een(delict), (gemeentenaam o gepleegd in)) : [gemeentenamen -> getal]
+                                        --- 0.013 seconds ---
+sql query:        
+SELECT TOP 5 delict_gepleegd_in.gemeentenaam, SUM(1) AS keyc
+FROM delict
+JOIN gemeente AS delict_gepleegd_in ON (delict_gepleegd_in.gemeente_id = delict.gepleegd_in)
+GROUP BY delict_gepleegd_in.gemeentenaam
+ORDER BY keyc DESC
+
+
+                                        --- 0.001 seconds ---
+gemeentenamen	getal	(['de 5 gemeenten met het grootste aantal delicten'], [], [])
+                                        --- 0.002 seconds ---
+
+2021-11-24 14:03:45,152:INFO:
+line:             delict met meeste verdachten in rotterdam
+tokens:           ['delict', 'met', 'meeste', 'verdachten', 'in', 'rotterdam']
+synonyms:         [None, None, None, None, None, None]
+objects:          [delict, None, None, aantal verdachten, None, Rotterdam]
+keywords:         ['<ot>', '<with>', '<most>', '<numvar>', '<prep>', '<const>']
+                                        --- 0.028 seconds ---pivot:            delict
+class:            10
+targetindex:      3
+target:           delict
+target id: eda4251b-4d26-11ec-8c85-6c6a77e3fa98                                        --- 0.4354 seconds ---
+order variable:   {delict : object type} ---aantal verdachten : variable--> {getal : quantity} 
+order:            desc 
+term:             (aantal verdachten o i((gemeentenaam o gepleegd in)=(Rotterdam o alle(delict)))) : [s((gemeentenaam o gepleegd in)=(Rotterdam o alle(delict))) -> getal]
+                                        --- 0.044 seconds ---
+sql query:        
+SELECT TOP 5 delict.delict_id, delict.aantal_verdachten AS keyc
+FROM delict
+JOIN gemeente AS delict_gepleegd_in ON (delict_gepleegd_in.gemeente_id = delict.gepleegd_in)
+WHERE (delict_gepleegd_in.gemeentenaam = 'Rotterdam')
+ORDER BY keyc DESC
+
+
+                                        --- 0.001 seconds ---
+delict-id	gemeentenamen	getal	(['de 5 delicten met het hoogste aantal verdachten van een delict'], [], ['gemeentenaam van een gemeente van een delict = Rotterdam'])
+                                        --- 0.003 seconds ---
+
+2021-11-24 14:04:28,212:INFO:
+line:             delict met meeste verdachten in rotterdam
+tokens:           ['delict', 'met', 'meeste', 'verdachten', 'in', 'rotterdam']
+synonyms:         [None, None, None, None, None, None]
+objects:          [delict, None, None, aantal verdachten, None, Rotterdam]
+keywords:         ['<ot>', '<with>', '<most>', '<numvar>', '<prep>', '<const>']
+                                        --- 0.011 seconds ---pivot:            delict
+class:            10
+targetindex:      3
+target:           delict
+target id: 09746c5a-4d27-11ec-a095-6c6a77e3fa98                                        --- 0.191 seconds ---
+order variable:   {delict : object type} ---aantal verdachten : variable--> {getal : quantity} 
+order:            desc 
+term:             (aantal verdachten o i((gemeentenaam o gepleegd in)=(Rotterdam o alle(delict)))) : [s((gemeentenaam o gepleegd in)=(Rotterdam o alle(delict))) -> getal]
+                                        --- 0.023 seconds ---
+sql query:        
+SELECT TOP 5 delict.delict_id, delict.aantal_verdachten AS keyc
+FROM delict
+JOIN gemeente AS delict_gepleegd_in ON (delict_gepleegd_in.gemeente_id = delict.gepleegd_in)
+WHERE (delict_gepleegd_in.gemeentenaam = 'Rotterdam')
+ORDER BY keyc DESC
+
+
+                                        --- 0.002 seconds ---
+delict-id	gemeentenamen	getal	(['de 5 delicten met het hoogste aantal verdachten van een delict'], [], ['gemeentenaam van een gemeente van een delict = Rotterdam'])
+                                        --- 0.002 seconds ---
+
