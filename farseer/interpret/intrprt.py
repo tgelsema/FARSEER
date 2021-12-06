@@ -249,6 +249,8 @@ def assembletermforclass6(objectlist, keywordlist, target, iota, order):
         return None
     if pseudodimension in orderedobjecttype.keys():
         var = orderedobjecttype[pseudodimension]
+        print("found var: " + var.name)
+        print("found pseudodimension: " + pseudodimension.name)
     else:
         return None
     if var.domain == pseudodimension:

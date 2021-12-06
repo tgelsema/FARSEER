@@ -38,7 +38,7 @@ def disp(x, fields):
 def columntitles(term, cols):
     if isinstance(term, Application):
         if term.op.name == 'selection':
-            columntitles(term.args[0].type, cols)
+            columntitles(term.args[0].type.args[0], cols)
         elif term.op.name == 'range':
             columntitles(term.args[0].type.args[1], cols)
         else:

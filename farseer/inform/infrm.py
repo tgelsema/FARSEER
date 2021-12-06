@@ -164,12 +164,12 @@ def informforcls6(conditions, dimensions, subjects, order):
             subjreport += "de kleinste 5 "
         else:
             subjreport += "de grootste 5 "
-        if dimensions != []:
+        if d != []:
             subjreport += d[0].var.domain.altname
         else:
             subjreport += subjects[0].var.domain.altname
         subjreport += " volgens "
-        if subjects[0].var.name.startswith("een"):
+        if subjects[0].var.name.startswith("een") and d != []:
             subjreport += "aantal " + subjects[0].__repr__() + " van een " + d[0].var.domain.name
         else:
             subjreport += subjects[0].__repr__()
