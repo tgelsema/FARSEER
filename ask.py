@@ -135,6 +135,7 @@ def report(s, classmodel, classtokenizer, targetmodel, targettokenizer, fw):
         e = [('1', 'Amsterdam'), ('2', "Rotterdam")]
         cols = ['getal', '1']
     logger.info(message)
+    print(message)
     i = [['onderwerp'], ['dimensie'], ['conditie']]
     return i, e, cols
         
@@ -218,6 +219,6 @@ if __name__ == '__main__':
     # ask("Wat is het gemiddeld aantal verdachten per maand")
     #ask('In welke gemeente zijn de meeste inbraken in totaal?')
     #ask("Op welke dag zijn er de meeste gevallen van inbraak in Den Haag gepleegd?")
-    ask("gemiddeld aantal delicten op een adres in een gemeemte")
+    ask("brandstichting in utrecht")
     #ask("aantal gevallen brandstichting")
     #readnask("testcases_delicten.txt")

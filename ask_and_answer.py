@@ -151,7 +151,6 @@ def evaluation():
     columntitles = request.args.getlist('columntitles')
     expl_json = request.args.get('explanation')
     expl_dict = json.loads(expl_json)
-    print(expl_dict)
     #On input, this block in triggered
     if eval_form.validate_on_submit():
         is_answer = eval_form.is_answer.data

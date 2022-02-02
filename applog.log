@@ -62,3 +62,5 @@
 2021-11-23 17:34:18,082:INFO:Question: Gemeente met meeste delicten
 2021-11-23 17:37:53,388:INFO:Question: Wat is het grootste bedrijf in delft
 2021-11-23 17:37:54,364:ERROR: Question Wat is het grootste bedrijf in delft produced error list index out of range, which occured in module <module 'farseer.inform.infrm' from 'c:\\Users\\Joeri\\Documents\\Werk\\farseerapp\\farseer\\inform\\infrm.py'>
+2022-01-05 17:30:33,280:INFO:Question: Gemeente met meeste delicten
+2022-02-02 08:52:55,665:INFO:Question: Gemeente met meeste delicten

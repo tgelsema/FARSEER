@@ -594,3 +594,81 @@ ORDER BY keyc DESC
 delict-id	gemeentenamen	getal	(['de 5 delicten met het hoogste aantal verdachten van een delict'], [], ['gemeentenaam van een gemeente van een delict = Rotterdam'])
                                         --- 0.002 seconds ---
 
+2021-12-08 16:27:24,443:INFO:
+line:             brandstichting in utrecht
+tokens:           ['brandstichting', 'in', 'utrecht']
+synonyms:         [None, None, None]
+objects:          [Brandstichting/ontploffing (WvSr art. 157-158), None, Utrecht]
+keywords:         ['<const>', '<prep>', '<const>']
+                                        --- 0.0492 seconds ---pivot:            delict
+class:            1
+targetindex:      0
+target:           delict
+target id: 501c0882-583b-11ec-8184-6c6a77e3fa98                                        --- 0.392 seconds ---
+term:             None
+2021-12-08 16:28:14,682:INFO:
+line:             brandstichting in utrecht
+tokens:           ['brandstichting', 'in', 'utrecht']
+synonyms:         [None, None, None]
+objects:          [Brandstichting/ontploffing (WvSr art. 157-158), None, Utrecht]
+keywords:         ['<const>', '<prep>', '<const>']
+                                        --- 0.017 seconds ---pivot:            delict
+class:            1
+targetindex:      0
+target:           delict
+target id: 7103ebba-583b-11ec-b921-6c6a77e3fa98                                        --- 0.181 seconds ---
+term:             None
+2022-01-05 17:30:33,764:INFO:
+line:             Gemeente met meeste delicten
+tokens:           ['gemeente', 'met', 'meeste', 'delicten']
+synonyms:         [None, None, None, None]
+objects:          [gemeente, None, None, delict]
+keywords:         ['<ot>', '<with>', '<most>', '<ot>']
+                                        --- 0.009 seconds ---pivot:            delict
+class:            7
+targetindex:      3
+target:           delict
+target id: c20b9d23-6e44-11ec-8ad6-6c6a77e3fa98                                        --- 0.3075 seconds ---
+order variable:   {delict : object type} ---een(delict) : variable--> {getal : quantity} 
+order:            desc 
+term:             a(een(delict), (gemeentenaam o gepleegd in)) : [gemeentenamen -> getal]
+                                        --- 0.054 seconds ---
+sql query:        
+SELECT TOP 5 delict_gepleegd_in.gemeentenaam, SUM(1) AS keyc
+FROM delict
+JOIN gemeente AS delict_gepleegd_in ON (delict_gepleegd_in.gemeente_id = delict.gepleegd_in)
+GROUP BY delict_gepleegd_in.gemeentenaam
+ORDER BY keyc DESC
+
+
+                                        --- 0.001 seconds ---
+gemeentenamen	getal	(['de 5 gemeenten met het grootste aantal delicten'], [], [])
+                                        --- 0.002 seconds ---
+
+2022-02-02 08:52:56,275:INFO:
+line:             Gemeente met meeste delicten
+tokens:           ['gemeente', 'met', 'meeste', 'delicten']
+synonyms:         [None, None, None, None]
+objects:          [gemeente, None, None, delict]
+keywords:         ['<ot>', '<with>', '<most>', '<ot>']
+                                        --- 0.009 seconds ---pivot:            delict
+class:            7
+targetindex:      3
+target:           delict
+target id: 13c79b41-83fd-11ec-a79d-6c6a77e3fa98                                        --- 0.392 seconds ---
+order variable:   {delict : object type} ---een(delict) : variable--> {getal : quantity} 
+order:            desc 
+term:             a(een(delict), (gemeentenaam o gepleegd in)) : [gemeentenamen -> getal]
+                                        --- 0.053 seconds ---
+sql query:        
+SELECT TOP 5 delict_gepleegd_in.gemeentenaam, SUM(1) AS keyc
+FROM delict
+JOIN gemeente AS delict_gepleegd_in ON (delict_gepleegd_in.gemeente_id = delict.gepleegd_in)
+GROUP BY delict_gepleegd_in.gemeentenaam
+ORDER BY keyc DESC
+
+
+                                        --- 0.002 seconds ---
+gemeentenamen	getal	(['de 5 gemeenten met het grootste aantal delicten'], [], [])
+                                        --- 0.001 seconds ---
+
