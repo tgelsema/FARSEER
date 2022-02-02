@@ -19,5 +19,5 @@ if LOCAL:
 
 else:
     uri = "" #URL for neo4j database
-    user = "neo4j"
-    password = "password"
+    user = ""
+    password = ""

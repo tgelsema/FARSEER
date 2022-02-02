@@ -345,16 +345,6 @@ def create_all_relationships(graph: GraphDB, dm_elements: dict, ones: list = Non
             pass
         if key == "":
             pass
-    #add ones and alls
-    """for _one in ones:
-        domain = _one.domain.name
-        codomain = _one.domain.codomain
-        session.write_transaction(create_relationship, "Variable", _one.name, domain=domain, codomain=codomain, domain_label = True)
-    for _all in alls:
-        domain = _all.domain.name
-        codomain = _all.codomain.name
-        session.write_transaction(create_relationship, "Variable", _all.name, domain=domain, codomain=codomain, domain_label = True)"""
-
 def add_labels_to_nodes(session, label_name: str, label_dict: dict):
     """
     Function to add labels to nodes.
@@ -397,11 +387,4 @@ def make_graph():
 
 
 if __name__ == '__main__':
-    #more_testing()
-    #dm_types, dm_elements = divide_types_and_elements(domainmodel, types, elements)
     make_graph()
-    #scm_test()
-    #create_nodes_test()
-    #main()
-    #print("a")
-    #label_testing()

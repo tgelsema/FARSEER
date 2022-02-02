@@ -7,10 +7,10 @@ This is a temporary script file.
 import pyodbc
 from farseer.kind.knd import Application, Phenomenon, ObjectType, One
 
-servername = "S0DSQL0171O"
-databasename = "ID_GC_ANA"
-username = "SQL_ID_GC_ANA_O"
-password = "rgEjoUTP0XwJj4qBIev6"
+servername = ""
+databasename = ""
+username = ""
+password = ""
 driver='/home/vcap/deps/0/apt/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.8.so.1.1' #this is where the driver is installed in the Cloud Foundry 'container'
 connstr = "DRIVER=%s;SERVER=%s.cbsp.nl,50001;DATABASE=%s;UID=%s;PWD=%s;" % (driver, servername, databasename,username,password)
 

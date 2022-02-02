@@ -382,7 +382,6 @@ class GraphDB:
 
             if constr_type == "Application":
                 if operator == "product":
-                    print(file_name, args)
                     datadesign = DatasetDesign(name=name, constr=Application(product, args))
         return datadesign
 
@@ -404,20 +403,3 @@ class GraphDB:
         self.driver.close()
 
 graph = GraphDB(uri, user, password)
-
-
-if __name__ == '__main__':
-    """uri = "neo4j://localhost:7687"
-    user = "neo4j"
-    passw = "password"
-    graphdb = GraphDB(uri, user, passw)
-
-    print(graphdb.rebuilt_dm)"""
-
-    #persoon = graphdb.get_kind('persoon', 'ObjectType')
-    #print("Persoon.type" , persoon.type)
-    #paths = graph.get_paths('persoon', 'gemeente')
-    #print(paths)
-    for data in graph.data:
-        print(data.constr.args)
-
