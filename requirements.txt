@@ -1,13 +1,3 @@
-# This file contains all requirements for the python application.
-#
-# Where possible, these are installed from the internal package repository: "packages.cbsp.nl",
-# referenced in the --index-url argument
-# 
-# Ideally, pid and password would be parsed from environment variables, but requirements files do not support this.
-# So, for now, pid and password need to be input manually before pushing application to cloud foundry
-
-
-#--index-url="https://ontjetn:PuKh87E6@packages.cbsp.nl:8443/repository/cbs.pypi/simple/"
 Flask_WTF==0.14.3
 Keras==2.4.3
 click<7.2.0
@@ -22,6 +12,4 @@ Keras_Preprocessing==1.1.2
 sklearn
 pandas
 spacy==3.1.3
-#-r tensorflow_requirement.txt
-#-r model_requirement.txt
-
+tensorflow==2.5.0

@@ -18,6 +18,6 @@ if LOCAL:
     password = "password"
 
 else:
-    uri = "neo4j://neo4j.apps.farseer.nonprod01.cp.cbsp.nl:7687" #URL for neo4j database
+    uri = "" #URL for neo4j database
     user = "neo4j"
     password = "password"
