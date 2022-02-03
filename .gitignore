@@ -1,1 +1,3 @@
-/farseer/__pycache__
+*.pyc
+farseer/nlp/tknz.pickle
+/logs

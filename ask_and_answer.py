@@ -41,7 +41,7 @@ app.logger.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
 
 #File handler takes care of writing to the right file
-filehandler = logging.FileHandler('applog.log')
+filehandler = logging.FileHandler('logs/applog.log')
 filehandler.setFormatter(formatter)
 
 #Add logger to app

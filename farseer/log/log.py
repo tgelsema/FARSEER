@@ -13,7 +13,7 @@ logger.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
 
 #Define a handler. In our case, we write to a file in this folder
-filehandler = logging.FileHandler('infolog.log')
+filehandler = logging.FileHandler('logs/infolog.log')
 filehandler.setFormatter(formatter)
 
 #Add handler to our logger
