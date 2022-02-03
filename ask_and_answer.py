@@ -15,7 +15,7 @@ the user get redirected to an error page
 kindly requesting to ask another question.
 
 """
-from ask import ask
+from farseer.ask import ask
 from flask import Flask, render_template, redirect, url_for
 from flask.globals import request
 from flask_bootstrap import Bootstrap

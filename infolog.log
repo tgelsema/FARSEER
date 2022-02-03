@@ -1,0 +1,54 @@
+2022-02-03 07:47:36,871:INFO:
+line:             Gemeente met meeste delicten
+tokens:           ['gemeente', 'met', 'meeste', 'delicten']
+synonyms:         [None, None, None, None]
+objects:          [gemeente, None, None, delict]
+keywords:         ['<ot>', '<with>', '<most>', '<ot>']
+                                        --- 0.0097 seconds ---pivot:            delict
+class:            7
+targetindex:      3
+target:           delict
+target id: 20464eda-84bd-11ec-b28c-6c6a77e3fa98                                        --- 0.3866 seconds ---
+order variable:   {delict : object type} ---een(delict) : variable--> {getal : quantity} 
+order:            desc 
+term:             a(een(delict), (gemeentenaam o gepleegd in)) : [gemeentenamen -> getal]
+                                        --- 0.055 seconds ---
+sql query:        
+SELECT TOP 5 delict_gepleegd_in.gemeentenaam, SUM(1) AS keyc
+FROM delict
+JOIN gemeente AS delict_gepleegd_in ON (delict_gepleegd_in.gemeente_id = delict.gepleegd_in)
+GROUP BY delict_gepleegd_in.gemeentenaam
+ORDER BY keyc DESC
+
+
+                                        --- 0.002 seconds ---
+gemeentenamen	getal	(['de 5 gemeenten met het grootste aantal delicten'], [], [])
+                                        --- 0.001 seconds ---
+
+2022-02-03 07:49:29,788:INFO:
+line:             Gemeente met meeste delicten
+tokens:           ['gemeente', 'met', 'meeste', 'delicten']
+synonyms:         [None, None, None, None]
+objects:          [gemeente, None, None, delict]
+keywords:         ['<ot>', '<with>', '<most>', '<ot>']
+                                        --- 0.01 seconds ---pivot:            delict
+class:            7
+targetindex:      3
+target:           delict
+target id: 64d4987f-84bd-11ec-b96e-6c6a77e3fa98                                        --- 0.201 seconds ---
+order variable:   {delict : object type} ---een(delict) : variable--> {getal : quantity} 
+order:            desc 
+term:             a(een(delict), (gemeentenaam o gepleegd in)) : [gemeentenamen -> getal]
+                                        --- 0.026 seconds ---
+sql query:        
+SELECT TOP 5 delict_gepleegd_in.gemeentenaam, SUM(1) AS keyc
+FROM delict
+JOIN gemeente AS delict_gepleegd_in ON (delict_gepleegd_in.gemeente_id = delict.gepleegd_in)
+GROUP BY delict_gepleegd_in.gemeentenaam
+ORDER BY keyc DESC
+
+
+                                        --- 0.001 seconds ---
+gemeentenamen	getal	(['de 5 gemeenten met het grootste aantal delicten'], [], [])
+                                        --- 0.002 seconds ---
+

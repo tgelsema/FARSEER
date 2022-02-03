@@ -13,21 +13,13 @@ from farseer.interpret.intrprt_pivot import gettarget, getpivot
 from farseer.compile.cmpl import cmpl
 from farseer.exec.exc import execute, present, columntitles
 from farseer.inform.infrm import inform
+from farseer.log.log import logger
 import time
 import tensorflow as tf
 import os
-import logging
 # from prsnt import present
 
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
-
-filehandler = logging.FileHandler('infolog.log')
-filehandler.setFormatter(formatter)
-
-logger.addHandler(filehandler)
+LOCAL = True # For debugging in environment without access to SQL database with answers to questions
 
 def readnask(filename="./testcases_delicten.txt"):
     (classmodel, classtokenizer, targetmodel, targettokenizer) = prepare()
@@ -96,7 +88,6 @@ def report(s, classmodel, classtokenizer, targetmodel, targettokenizer, fw):
         message += '                                        --- %s seconds ---\n' % t
         fw.write(str(t) + ";")
         start_time = time.time()
-        print(term, var, order)
         c = cmpl(data, term, var, order)
         message += 'sql query:        \n' + \
                    f'{c.gen_sql(dialect="T-SQL")}\n'
@@ -108,36 +99,44 @@ def report(s, classmodel, classtokenizer, targetmodel, targettokenizer, fw):
         start_time = time.time()
         cols = []
         columntitles(term.type, cols)
-        print(cols)
         for col in cols:
             message += f'{col}\t'
-        #e = execute(c.gen_sql(dialect="T-SQL"))
-        #present(e)
-        #message += str(e) + '\n'
-        #if len(e) == 20:
-        #    message += "(maximaal 20 rijen)"
-        t = round(time.time() - start_time, 4)
-        message += '                                        --- %s seconds ---\n' % t
-        fw.write(str(t) + "\n")
-        start_time = time.time()
-        
+        if not LOCAL:
+            e = execute(c.gen_sql(dialect="T-SQL"))
+            present(e)
+            message += str(e) + '\n'
+            if len(e) == 20:
+                message += "(maximaal 20 rijen)"
+            t = round(time.time() - start_time, 4)
+            message += '                                        --- %s seconds ---\n' % t
+            fw.write(str(t) + "\n")
+            start_time = time.time()
+        else:
+            e = None
+        print(message)    
         i = inform(term, cls, None, order)
         message += str(i) + '\n'
         t = round(time.time() - start_time, 4)
         message += '                                        --- %s seconds ---\n' % t
         fw.write(str(t) + "\n")
-
+        print(message)
+        
     else:
         message += 'term:             None'
         i = None
+        e = None
     # print('\n')
     # if term != None:
     #     c = cmpl(term, order)
     #     print(c)
     #     e = execute(c)
     #     present(e)
+    if LOCAL:
+        e = [('1', 'Example 1'), ('2', "Example 2")]
+        cols = ['getal', '1']
     logger.info(message)
-    return i
+    print(message)
+    return i, e, cols
         
 if __name__ == '__main__':
     tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
@@ -219,5 +218,6 @@ if __name__ == '__main__':
     # ask("Wat is het gemiddeld aantal verdachten per maand")
     #ask('In welke gemeente zijn de meeste inbraken in totaal?')
     #ask("Op welke dag zijn er de meeste gevallen van inbraak in Den Haag gepleegd?")
-    ask("Gemeente met meeste delicten")
+    ask("brandstichting in utrecht")
+    #ask("aantal gevallen brandstichting")
     #readnask("testcases_delicten.txt")
