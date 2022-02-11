@@ -1241,9 +1241,9 @@ wat is het inkomen aan de Meppelerweg in Den Haag in totaal?
 
 3
 salaris
-het totale salaris per functie bij bedrijven gevestigd in Leiden
-salaris
 wat is het totale salaris bij bedrijven in Leiden naar functie?
+salaris
+het totale salaris per functie bij bedrijven gevestigd in Leiden
 salaris
 wat is het totale salaris naar functie bij bedrijven in Leiden
 salaris
@@ -1355,11 +1355,11 @@ salaris per functie in totaal
 
 3
 salaris
-het totale salaris bij industriele bedrijven gevestigd in Delft
+totale salaris bij bedrijven in Delft in de industrie
 salaris
 wat is het totale salaris bij industriele bedrijven in Delft?
 salaris
-totale salaris bij bedrijven in Delft in de industrie
+het totale salaris bij industriele bedrijven gevestigd in Delft
 salaris
 wat is in Delft het totale salaris bij industriele bedrijven?
 salaris
@@ -4074,7 +4074,7 @@ De persoon die het oudst is, in welke gemeente woont die?
 
 10
 inkomen
-Het adres in Den Haag waar iemand woont met het hoogste inkomen
+Het hoogste inkomen, op welk adres in Den Haag is dat?
 verdiend
 Op welk adres in Den Haag wordt het meeste verdiend?
 inkomen
@@ -4082,7 +4082,7 @@ Welk adres in Den Haag heeft het hoogste inkomen?
 verdiend
 Op welk adres wordt in Den Haag het meeste verdiend?
 inkomen
-Het hoogste inkomen, op welk adres in Den Haag is dat?
+Het adres in Den Haag waar iemand woont met het hoogste inkomen
 inkomen
 Het grootste inkomen in Den Haag op welk adres?
 inkomen
@@ -4210,13 +4210,13 @@ Het bedrijf waar het salaris het hoogst is
 
 10
 verdient
-Wie verdient het minst?
+Welke persoon verdient het minst?
 inkomen
 Welke persoon heeft het laagste inkomen?
 inkomen
 De persoon met het laagste inkomen
 verdient
-Welke persoon verdient het minst?
+Wie verdient het minst?
 inkomen
 Het laagste inkomen, wie heeft dat?
 inkomen

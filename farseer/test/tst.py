@@ -215,23 +215,27 @@ def do_baseline_test():
                     targetindex = gettargetindexfrommodelandtokenizer(targetmodel, targettokenizer, keywordlist)
                     target = gettarget(tokenlist, objectlist, keywordlist, targetmodel, targettokenizer, pivot)
                     cls = getclassfrommodelandtokenizer(classmodel, classtokenizer, keywordlist)
+                    # print("computed target: " + target.name)
+                    # print("computed target index: " + str(targetindex))
+                    # print("expected target: " + expectedpseudotarget)
+                    # print("expected target index: " + str(tokenlist.index(expectedpseudotarget)))
+                    # print("tokenlist: " + str(tokenlist))
+                    if targetindex != tokenlist.index(expectedpseudotarget):
+                        fw1.write("Case no. " + str(n) + ", line '" + line + "': index " + str(targetindex) + " does not match expected pseudo target '" + expectedpseudotarget + "'. Computed target is '" + target.name + "'.\n")
+                    if cls != expectedcls:
+                        fw1.write("Case no. " + str(n) + ", line '" + line + "': class '" + str(cls) + "' does not match expected class '" + str(expectedcls) + "'." + "\n")
                     term = interpret(tokenlist, objectlist, keywordlist, target, cls)
                     if isinstance(term, list):
                         term = term[0]
-                    if targetindex != tokenlist.index(expectedpseudotarget):
-                        fw1.write("Case no. " + str(n) + ", line '" + line + "': target '" + target.name + "' does not match expected pseudo target '" + expectedpseudotarget + "'." + "\n")
-                    if cls != expectedcls:
-                        fw1.write("Case no. " + str(n) + ", line '" + line + "': class '" + str(cls) + "' does not match expected class '" + str(expectedcls) + "'." + "\n")
+                    if term == None:
+                        fw1.write("Case no. " + str(n) + ", line '" + line + "': term yields None.\n")
                     if firstcase:
                         expectedterm = term
                         firstcase = False
                     else:
-                        if term != None:
+                        if expectedterm != None and term != None:
                             if not term.equals(expectedterm):
-                                fw1.write("Case no. " + str(n) + ", line '" + line + "': term '" + term.more() + "' does not match expected term '" + expectedterm.more() if expectedterm != None else "None" + "'." + "\n")
-                        else:
-                            if expectedterm != None:
-                                fw1.write("Case no. " + str(n) + ", line '" + line + "': term '" + term.more() if term != None else "None" + "' does not match expected term '" + expectedterm.more() + "'." + "\n")
+                                fw1.write("Case no. " + str(n) + ", line '" + line + "': term '" + term.more() + "' does not match expected term '" + expectedterm.more() + "'.\n")
                     testcase = Testcase(line, tokenlist, synonymlist, objectlist, keywordlist, pivot, target, cls, term)
                     testcases.append(testcase)
                 else:
